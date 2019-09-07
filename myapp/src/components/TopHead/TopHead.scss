@@ -1,0 +1,23 @@
+.tophead {
+  font-weight: 400;
+  background: $secondary-color;
+  color: #fff;
+  padding: 11px 0;
+  font-size: 14px;
+  i {
+    margin-right: 8px;
+    font-size: 18px;
+  }
+  span {
+    font-weight: 300;
+    margin-left: 10px;
+  } 
+  a {
+    color: #fff;
+    margin-left: 15px; 
+    &:hover {
+      opacity: 0.8;
+    }
+  }
+}
+ 

@@ -1,0 +1,13 @@
+.bottomhead {
+  background: $light-gray;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  .row {
+    [class*="col-"] {
+      &:last-child {
+        padding-right:0;
+       }
+    }
+  }
+}
+  

@@ -1,0 +1,17 @@
+.footer-btm {
+  background-color: $dark-secondary-color;
+  padding-bottom: 1rem;
+  padding-top: 1rem;
+    .ft-logo {
+      max-width:215px;
+    }
+    .footer-btn-rgt {
+      text-align:right;
+       a i {
+        font-size: 30px;
+        padding-left: 20px;
+        color:#fff;
+        margin-top:10px;
+    }
+    }
+}
