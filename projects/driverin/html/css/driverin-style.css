@@ -890,6 +890,9 @@ header .navbar-light .navbar-nav {
     .main-banner .col-lg-5 {
         display: none;
     }
+    .drin-count .count-item:nth-child(2):before, .drin-count .count-item:nth-child(2):after {
+        display: none;
+    }
     .drin-count .count-item h1 {
         font-size: 35px;
     }
@@ -998,9 +1001,46 @@ header .navbar-light .navbar-nav {
     header .navbar { 
     padding-right: 74px;
 }
+    .main-banner .input-group {
+    max-width: 100%;
+}
 }
 @media screen and (max-width:480px) {
     .wtcicle, .ylarrow {
         display: none;
     }
+    .dowloadapp .mbl-img { 
+    max-width: 400px;
+}
+}
+@media screen and (max-width:400px) {
+    .services-item {
+    padding: 0 1rem;
+}
+      .dowloadapp .mbl-img { 
+    max-width: 300px;
+}
+    .footer-menu {
+    display: block !important;
+}
+      h2 {
+    font-size: 20px;
+}
+    .main-banner .input-group { 
+    display: block !important;
+}
+    .main-banner .input-group .form-control {
+    width: 100%;
+    }
+    .main-banner .input-group .btn-green {
+        width:100%;
+    }
+    .app-icon img { 
+    margin-right: 1px;
+    }
+    .footer-menu a {
+    margin-right: 0;
+    display: block;
+    margin-bottom: 10px;
+}
 }
