@@ -871,6 +871,9 @@ header .navbar-light .navbar-nav {
     header .navbar-light .navbar-nav {
         margin-left: 0;
     }
+    header .navbar-light .navbar-nav .nav-link {
+        padding-top: 0;
+    }
     header li.nav-item { 
     margin-bottom: 0;
     border-bottom: 1px solid #f2f2f2;
@@ -977,10 +980,27 @@ header .navbar-light .navbar-nav {
     margin-right: 38px;
     font-size: 16px;
 }
-    .usecase-carousel .d-flex {
+    .usecase-carousel .d-flex.align-items-stretch {
         display: block !important;
     }
     .offer-lt, .offer-rt {
     border-radius: 0;    
+    }
+    .our-usecase .blue-box h2 div {
+        display: none;
+    }
+    .footer-menu a {
+    margin-right: 10px;
+}
+    .drin-count {
+    padding: 3rem 0;
+}
+    header .navbar { 
+    padding-right: 74px;
+}
+}
+@media screen and (max-width:480px) {
+    .wtcicle, .ylarrow {
+        display: none;
     }
 }
