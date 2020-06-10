@@ -7,23 +7,7 @@ jQuery("#banner-carousel").owlCarousel({
 	autoplayTimeout: 10000,
 	smartSpeed: 800,
 	nav: false
-	/*  , responsive: {
-	      0: {
-	          items: 1
-	      },
-
-	      600: {
-	          items: 3
-	      },
-
-	      1024: {
-	          items: 4
-	      },
-
-	      1366: {
-	          items: 4
-	      }
-	  } */
+	
 });
 jQuery("#features-carousel").owlCarousel({
 	autoplay: false,
@@ -46,7 +30,24 @@ jQuery("#cityride-carousel").owlCarousel({
 	autoHeight: true,
 	autoplayTimeout: 10000,
 	smartSpeed: 800,
-	nav: false
+	nav: false,
+    responsive: {
+	      0: {
+	          items: 1
+	      },
+
+	      768: {
+	          items: 2
+	      },
+
+	      1024: {
+	          items: 3
+	      },
+
+	      1366: {
+	          items: 3
+	      }
+	  } 
 
 });
 jQuery("#usecase-carousel").owlCarousel({
@@ -83,7 +84,24 @@ jQuery("#members-carousel").owlCarousel({
 	autoHeight: true,
 	autoplayTimeout: 10000,
 	smartSpeed: 800,
-	nav: false
+	nav: false,
+    responsive: {
+	      0: {
+	          items: 1
+	      },
+
+	      768: {
+	          items: 3
+	      },
+
+	      1024: {
+	          items: 3
+	      },
+
+	      1366: {
+	          items: 4
+	      }
+	  }
 
 });
 jQuery("#honours-carousel").owlCarousel({
@@ -94,7 +112,24 @@ jQuery("#honours-carousel").owlCarousel({
 	autoHeight: true,
 	autoplayTimeout: 10000,
 	smartSpeed: 800,
-	nav: false
+	nav: false,
+    responsive: {
+	      0: {
+	          items: 1
+	      },
+
+	      768: {
+	          items: 4
+	      },
+
+	      1024: {
+	          items: 5
+	      },
+
+	      1366: {
+	          items: 6
+	      }
+	  }
 
 });
 AOS.init({
