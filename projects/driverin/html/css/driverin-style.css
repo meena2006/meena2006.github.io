@@ -823,6 +823,19 @@ header .navbar-light .navbar-nav {
     font-weight: 500;
 }
 
+@media screen and (max-width:1440px) {
+    .banner-img { 
+    right: -10rem;
+    max-width: 575px; 
+}
+    .blcircle { 
+    right: -10rem; 
+}
+    .tpbtarrow { 
+    left: 33px; 
+}
+}
+
 @media screen and (max-width:1200px) {
     .no-flex {
         display: block !important;
@@ -1011,6 +1024,9 @@ header .navbar-light .navbar-nav {
     }
     .dowloadapp .mbl-img { 
     max-width: 400px;
+}
+    .main-banner { 
+    padding-bottom: 3rem;
 }
 }
 @media screen and (max-width:400px) {
