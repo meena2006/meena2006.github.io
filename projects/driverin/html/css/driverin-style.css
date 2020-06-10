@@ -805,3 +805,40 @@ header .navbar-light .navbar-nav {
         display: block !important;
     }
 }
+@media screen and (max-width:1024px){
+    .our-usecase .blue-box {
+    padding: 1rem;
+}
+    .team-img { 
+    max-width: 556px; 
+}
+    .offer h2 { 
+    font-size: 25px;
+}
+    .offer .coupon {
+    padding: 10px 20px; 
+    font-size: 18px; 
+}
+.footer-menu a { 
+    margin-right: 26px; 
+}
+    .services-item {
+    padding: 3rem 1rem; 
+}
+    .main-banner h1 {
+    font-size: 1.8rem; 
+}
+    header .navbar {
+    padding: 0.5rem 34px; 
+}
+    .banner-img { 
+    top: -3rem; 
+    max-width: 478px;  z-index: 9;
+}
+    .main-banner { 
+    padding-left: 22px;
+}
+    .blcircle { 
+    right: -1rem; 
+}
+}
