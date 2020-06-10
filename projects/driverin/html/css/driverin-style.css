@@ -297,10 +297,17 @@ header .navbar-light .navbar-nav {
     animation-iteration-count: infinite;
     animation-timing-function: ease-in-out;
 }
+
 @keyframes floating {
-    from { transform: translate(0,  0px); }
-    65%  { transform: translate(0, 15px); }
-    to   { transform: translate(0, -0px); }    
+    from {
+        transform: translate(0, 0px);
+    }
+    65% {
+        transform: translate(0, 15px);
+    }
+    to {
+        transform: translate(0, -0px);
+    }
 }
 
 .our-features {
@@ -348,7 +355,8 @@ header .navbar-light .navbar-nav {
 }
 
 .owl-slider .owl-item.active .our-features img {
-    right: -119px; opacity: 1;
+    right: -119px;
+    opacity: 1;
 }
 
 .features-carousel {
@@ -587,7 +595,7 @@ header .navbar-light .navbar-nav {
 }
 
 .members-item img {
-    width:202px !important;
+    width: 202px !important;
     height: 190px;
     margin-bottom: 1rem;
     background: #edf6ff;
@@ -665,70 +673,83 @@ header .navbar-light .navbar-nav {
     margin-top: -138px;
     max-width: 460px;
 }
-.bt-arrow { 
+
+.bt-arrow {
     bottom: 125px;
     left: -8px;
     width: 36px;
 }
-.bt-ylw { 
+
+.bt-ylw {
     top: -72px;
     left: 13%;
     width: 36px;
 }
+
 .btarrow {
-        top: 0;
+    top: 0;
     left: 77%;
     width: 36px;
     z-index: 1;
 }
+
 .btylw {
-        top: 35%;
+    top: 35%;
     left: 0;
     width: 36px;
 }
+
 .bldot {
     bottom: -21%;
     left: 25%;
     width: 32px;
 }
+
 .icwhite {
-       bottom: 0;
+    bottom: 0;
     right: 38px;
     max-width: 260px;
 }
+
 .blrt {
-   right: -10%;
+    right: -10%;
     bottom: 0;
     opacity: 0.1;
 }
+
 .blcircle {
-        top: -10rem;
+    top: -10rem;
     right: -7rem;
     max-width: 200px;
     z-index: 99999;
 }
+
 .tpbtarrow {
     top: 20%;
     left: -30px;
     width: 45px;
-    z-index: 99999; 
+    z-index: 99999;
 }
-.ylcicle {   
+
+.ylcicle {
     bottom: -10%;
     right: -54px;
     width: 15px;
     z-index: 99999;
 }
+
 .ylarrow {
     width: 36px;
     left: 38%;
     bottom: 0;
 }
+
 .wtcicle {
     max-width: 120px;
     left: 0;
     bottom: 0;
 }
+
 .owl-slider .owl-item .our-features .blue-box img.icwhite {
     bottom: 0;
     top: inherit;
@@ -779,7 +800,9 @@ header .navbar-light .navbar-nav {
     height: 16px;
     color: #fff;
 }
-.social-link a:hover, .footer-menu a:hover {
+
+.social-link a:hover,
+.footer-menu a:hover {
     opacity: 0.5;
     text-decoration: none;
     transition: all 300ms linear;
@@ -805,49 +828,52 @@ header .navbar-light .navbar-nav {
         display: block !important;
     }
 }
-@media screen and (max-width:1024px){
+
+@media screen and (max-width:1024px) {
     .our-usecase .blue-box {
-    padding: 1rem;
-}
-    .team-img { 
-    max-width: 556px; 
-}
-    .offer h2 { 
-    font-size: 25px;
-}
+        padding: 1rem;
+    }
+    .team-img {
+        max-width: 556px;
+    }
+    .offer h2 {
+        font-size: 25px;
+    }
     .offer .coupon {
-    padding: 10px 20px; 
-    font-size: 18px; 
-}
-.footer-menu a { 
-    margin-right: 26px; 
-}
+        padding: 10px 20px;
+        font-size: 18px;
+    }
+    .footer-menu a {
+        margin-right: 26px;
+    }
     .services-item {
-    padding: 3rem 1rem; 
-}
+        padding: 3rem 1rem;
+    }
     .main-banner h1 {
-    font-size: 1.8rem; 
-}
+        font-size: 1.8rem;
+    }
     header .navbar {
-    padding: 0.5rem 34px; 
-}
-    .banner-img { 
-    top: -3rem; 
-    max-width: 478px;  z-index: 9;
-}
-    .main-banner { 
-    padding-left: 22px;
-}
-    .blcircle { 
-    right: -1rem; 
-}
-}
-@media screen and (max-width:768px){
-    header .navbar {
-    padding: 1.5rem 34px;
-}
+        padding: 0.5rem 34px;
+    }
+    .banner-img {
+        top: -3rem;
+        max-width: 478px;
+        z-index: 9;
+    }
     .main-banner {
-    padding: 8rem 0;
+        padding-left: 22px;
+    }
+    .blcircle {
+        right: -1rem;
+    }
+}
+
+@media screen and (max-width:768px) {
+    header .navbar {
+        padding: 1.5rem 34px;
+    }
+    .main-banner {
+        padding: 8rem 0;
     }
     .main-banner .col-lg-5 {
         display: none;
@@ -855,64 +881,63 @@ header .navbar-light .navbar-nav {
     .drin-count .count-item h1 {
         font-size: 35px;
     }
-    .drin-count .count-item { 
-    padding: 0.3rem 2rem; 
-}
-    .drin-count .count-item span { 
-    margin-top: 7px; 
-}
-    .blue-box { 
-    padding: 35px; 
-}
-    .our-package {
-    margin-top: 0;
+    .drin-count .count-item {
+        padding: 0.3rem 2rem;
     }
-    .nav-tabs .nav-link { 
-    margin-right: 46px; 
-}
+    .drin-count .count-item span {
+        margin-top: 7px;
+    }
+    .blue-box {
+        padding: 35px;
+    }
+    .our-package {
+        margin-top: 0;
+    }
+    .nav-tabs .nav-link {
+        margin-right: 46px;
+    }
     .cityride-item {
-    padding: 16px; 
-    min-height: 260px;
-}
+        padding: 16px;
+        min-height: 260px;
+    }
     .project-tab .tab-content {
-    margin: 2rem 0;
-}
+        margin: 2rem 0;
+    }
     .our-usecase .blue-box h2 {
-    padding-top: 0;
-    padding-bottom: 10px;
-}
+        padding-top: 0;
+        padding-bottom: 10px;
+    }
     .blue-box p {
-    line-height: 26px;
-    padding-bottom: 14px;
-    margin-bottom: 0 !important; 
-}
+        line-height: 26px;
+        padding-bottom: 14px;
+        margin-bottom: 0 !important;
+    }
     .our-usecase .blue-box h5 {
-    padding-bottom: 13px; 
-}
+        padding-bottom: 13px;
+    }
     .our-customers {
-    padding: 0 15px;
-}
+        padding: 0 15px;
+    }
     .team-img {
-    position: relative;
-    right: inherit;
-    max-width: 100%;
-    top: inherit;
-}
-    .offer-lt { 
-    padding: 30px 22px; 
-}
+        position: relative;
+        right: inherit;
+        max-width: 100%;
+        top: inherit;
+    }
+    .offer-lt {
+        padding: 30px 22px;
+    }
     .offer-rt .d-flex {
         display: block !important;
     }
-    .offer .coupon { 
-    margin-left: 0;
-    margin-top: 16px;
-}
+    .offer .coupon {
+        margin-left: 0;
+        margin-top: 16px;
+    }
     .dowloadapp {
-    margin-top: 5rem; 
-}
+        margin-top: 5rem;
+    }
     .dowloadapp .mbl-img {
-    margin-top: 12px; 
-}
-    
+        margin-top: 12px;
+    }
 }
