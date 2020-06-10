@@ -966,3 +966,21 @@ header .navbar-light .navbar-nav {
     .social-link  { padding-top: 0;}
     .social-link span { float: none; }
 }
+@media screen and (max-width:600px) {
+    .drin-count .count-item span {
+            float: none;
+    }
+    .drin-count .count-item { 
+    margin-top: 1rem;
+}
+    .nav-tabs .nav-link {
+    margin-right: 38px;
+    font-size: 16px;
+}
+    .usecase-carousel .d-flex {
+        display: block !important;
+    }
+    .offer-lt, .offer-rt {
+    border-radius: 0;    
+    }
+}
