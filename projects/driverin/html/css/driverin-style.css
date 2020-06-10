@@ -342,13 +342,13 @@ header .navbar-light .navbar-nav {
 .owl-slider .owl-item .our-features img {
     max-width: 698px;
     position: absolute;
-    right: 0;
+    opacity: 0;
     top: -66px;
     width: initial;
 }
 
 .owl-slider .owl-item.active .our-features img {
-    right: -119px;
+    right: -119px; opacity: 1;
 }
 
 .features-carousel {
