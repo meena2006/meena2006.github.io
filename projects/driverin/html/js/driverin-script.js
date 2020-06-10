@@ -1,5 +1,5 @@
 jQuery("#banner-carousel").owlCarousel({
-	autoplay: false,
+	autoplay: true,
 	items: 1,
 	loop: true,
 	responsiveClass: true,
@@ -10,7 +10,7 @@ jQuery("#banner-carousel").owlCarousel({
 	
 });
 jQuery("#features-carousel").owlCarousel({
-	autoplay: false,
+	autoplay: true,
 	items: 1,
 	loop: true,
 	animateOut: 'fadeOut',
@@ -23,7 +23,7 @@ jQuery("#features-carousel").owlCarousel({
 
 });
 jQuery("#cityride-carousel").owlCarousel({
-	autoplay: false,
+	autoplay: true,
 	items: 3,
 	loop: true,
 	responsiveClass: true,
@@ -51,7 +51,7 @@ jQuery("#cityride-carousel").owlCarousel({
 
 });
 jQuery("#usecase-carousel").owlCarousel({
-	autoplay: false,
+	autoplay: true,
 	items: 1,
 	margin: 15,
 	animateOut: 'fadeOut',
@@ -65,7 +65,7 @@ jQuery("#usecase-carousel").owlCarousel({
 
 });
 jQuery("#customer-carousel").owlCarousel({
-	autoplay: false,
+	autoplay: true,
 	items: 1,
 	loop: true,
 	responsiveClass: true,
@@ -77,7 +77,7 @@ jQuery("#customer-carousel").owlCarousel({
 
 });
 jQuery("#members-carousel").owlCarousel({
-	autoplay: false,
+	autoplay: true,
 	items: 4,
 	loop: true,
 	responsiveClass: true,
@@ -105,7 +105,7 @@ jQuery("#members-carousel").owlCarousel({
 
 });
 jQuery("#honours-carousel").owlCarousel({
-	autoplay: false,
+	autoplay: true,
 	items: 6,
 	loop: true,
 	responsiveClass: true,
