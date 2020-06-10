@@ -867,8 +867,17 @@ header .navbar-light .navbar-nav {
         right: -1rem;
     }
 }
-
-@media screen and (max-width:768px) {
+@media screen and (max-width:991px){
+    header .navbar-light .navbar-nav {
+        margin-left: 0;
+    }
+    header li.nav-item { 
+    margin-bottom: 0;
+    border-bottom: 1px solid #f2f2f2;
+}
+    header li.nav-item:last-child {
+        border-bottom: none;
+    } 
     header .navbar {
         padding: 1.5rem 17px;
     }
