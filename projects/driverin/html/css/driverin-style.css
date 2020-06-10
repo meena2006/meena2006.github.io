@@ -870,7 +870,7 @@ header .navbar-light .navbar-nav {
 
 @media screen and (max-width:768px) {
     header .navbar {
-        padding: 1.5rem 34px;
+        padding: 1.5rem 17px;
     }
     .main-banner {
         padding: 8rem 0;
@@ -890,9 +890,7 @@ header .navbar-light .navbar-nav {
     .blue-box {
         padding: 35px;
     }
-    .our-package {
-        margin-top: 0;
-    }
+     
     .nav-tabs .nav-link {
         margin-right: 46px;
     }
@@ -916,7 +914,7 @@ header .navbar-light .navbar-nav {
         padding-bottom: 13px;
     }
     .our-customers {
-        padding: 0 15px;
+        padding: 0 15px;    padding-top: 3rem;
     }
     .team-img {
         position: relative;
@@ -935,9 +933,27 @@ header .navbar-light .navbar-nav {
         margin-top: 16px;
     }
     .dowloadapp {
-        margin-top: 5rem;
+        margin-top: 5rem;    padding-bottom: 0;
     }
     .dowloadapp .mbl-img {
         margin-top: 12px;
     }
+    .footer-lt {
+        text-align: center;
+    }
+    .footer-lt img  {
+        margin: 0 auto;
+    margin-bottom: 1.15rem;
+    }
+    .footer-top { 
+    padding-bottom: 2rem;
+    padding-top: 2rem;
+}
+    .footer-menu, .social-link { 
+    padding-top: 2rem;
+    display: block !important;
+    text-align: center;
+}
+    .social-link  { padding-top: 0;}
+    .social-link span { float: none; }
 }
