@@ -99,8 +99,10 @@
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
       $('#header').addClass('header-scrolled');
+        $('body').addClass('scrolled');
     } else {
       $('#header').removeClass('header-scrolled');
+        $('body').removeClass('scrolled');
     }
   });
 
