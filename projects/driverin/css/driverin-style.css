@@ -160,6 +160,7 @@ to{transform:translate(0,-0px)}
 @media (min-width:1380px){  
     .our-features .col-md-6 { padding-left: 0; padding-right: 0;}
     .owl-slider .owl-item .our-features .ftur-img {     position: relative !important; right: inherit !important;  top: inherit;  max-width: 100%;}
+    .owl-slider .owl-item .our-features .blue-box {  margin-top: 0; }
 }@media screen and (max-width:1200px){.no-flex{display:block!important}
 }@media screen and (max-width:1024px){.our-usecase .blue-box{padding:1rem}
 .team-img{max-width:556px}
