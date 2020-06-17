@@ -34,7 +34,7 @@ header .navbar-light .navbar-nav{margin-left:5rem}
 .drin-count{padding:8rem 0}
 .drin-count .count-item{text-align:center;padding:.3rem 4rem;position:relative}
 .drin-count .count-item h1{font-size:56pt;font-weight:500; color:rgb(24,28,32);}
-.drin-count .count-item span{font-size:30pt;margin-top:25px;float:right}
+.drin-count .count-item span{font-size:30pt;margin-top:25px;float:right; display: none;}
 .drin-count .count-item div{text-transform:uppercase;font-size:18pt;color:rgb(51,51,51)}
 .drin-count .count-item:first-child h1{color:rgb(12,197,136)}
 .drin-count .count-item:nth-child(2):before,.drin-count .count-item:nth-child(2):after{content:'';width:2px;height:58px;    background: rgb(215,229,240);position:absolute;left:0;top:20px}
@@ -70,7 +70,7 @@ to{transform:translate(0,-0px)}
 .features-carousel .owl-dots button.owl-dot.active{background:rgb(255,255,255)}
 .our-package{margin-top:3.5rem;margin-bottom:3.5rem}
 .our-package h2{ margin-bottom:2rem}
-.our-package p{line-height:34px; font-size: 18pt; color: (51,51,51); font-weight: 300;}
+.our-package p{line-height:34px; font-size: 18pt; color: rgb(51,51,51); font-weight: 300;}
 .project-tab{margin:4rem 0}
 .nav-tabs{border:0}
 .nav-tabs .nav-link{    color: rgb(51,51,51);font-size: 24pt;font-weight:600;text-align:left;padding:10px 0;border:0;margin-right:90px;display:inline-block;flex:inherit}
@@ -99,7 +99,7 @@ to{transform:translate(0,-0px)}
 .our-customers{padding:6rem 15px}
 .customers-slider-rt{padding:45px!important}
 .customers-slider-rt img{max-height:24px}
-.customers-slider-rt p{font-style:italic;line-height:34px;padding:1rem 0; font-weight: 300; font-size: 18pt; color: (51,51,51)}
+.customers-slider-rt p{font-style:italic;line-height:34px;padding:1rem 0; font-weight: 300; font-size: 18pt; color: rgb(51,51,51)}
 .customers-slider-rt h5, .customers-slider-rt div{color:rgb(24,28,32); font-size: 18pt}
 .customers-slider-rt div{color:rgb(24,28,32); font-size: 18pt; font-weight: 300;}
 .customer-carousel .owl-dots{text-align:center;padding-top:1rem}
@@ -122,17 +122,13 @@ to{transform:translate(0,-0px)}
 .offer h2{font-weight:500; font-size: 32pt;}
 .offer p{font-size: 14pt; margin:0}
 .offer .label-text{ font-size:14pt; font-weight: 400;}
-.offer .coupon{padding:10px 30px;border:2px dashed #989696;border-radius:16px;font-size:32pt;margin-left:10px;letter-spacing:2px; font-weight: 500;}
+.offer .coupon{padding:10px 30px;border:2px dashed #989696;border-radius:16px;font-size:32pt;margin-left:10px;letter-spacing:2px; font-weight: 500;text-align: center;}
 .dowloadapp{margin-top:15rem;padding:2rem 0 0 0}
 .dowloadapp p {color: rgb(51,51,51); font-weight: 300;font-size: 18pt; line-height: 34px; }
 .dowloadapp h1{font-weight:600;font-size:32pt;line-height:1.2; color: rgb(24,28,32)}
 .dowloadapp .mbl-img{    margin-top: -101px; max-width: 460px;}
-.main-banner.dowloadapp .input-group { 
-    max-width: 96%;
-}
-.dowloadapp-lt {
-  padding-bottom: 2rem; 
-}
+.main-banner.dowloadapp .input-group {     max-width: 96%;}
+.dowloadapp-lt {padding-bottom: 2rem; }
 .bt-arrow{bottom:125px;left:75px;width:36px}
 .bt-ylw{top:-54px;left:13%;width:36px}
 .btarrow{top:35px;left:77%;width:36px;z-index:1}
@@ -160,8 +156,25 @@ to{transform:translate(0,-0px)}
 @media (min-width:1380px){  
     .our-features .col-md-6 { padding-left: 0; padding-right: 0;}
     .owl-slider .owl-item .our-features .ftur-img {     position: relative !important; right: inherit !important;  top: inherit;  max-width: 100%;}
-    .owl-slider .owl-item .our-features .blue-box {  margin-top: 0; }
+    .owl-slider .owl-item .our-features .blue-box {  margin-top: 25px; }
 }@media screen and (max-width:1200px){.no-flex{display:block!important}
+     header .navbar-light .navbar-nav .nav-link, .main-banner .btn-green, .services-item p, .about-us p, .blue-box p, .cityride-item p, .members-item p, .offer p, .offer .label-text, .footer-menu a, .social-link span, .footer-bottom, .customers-slider-rt p {font-size: 11pt;}
+    .main-banner h1, .our-services h2, .usecase-title h2, .our-customers h2, .about-us h2, .honours h2, .our-package h2, .blue-box h2, .offer h2, .offer .coupon, .dowloadapp h1 { font-size: 25pt;}
+    .main-banner p, .main-banner .input-group .form-control, .form-control::placeholder, .drin-count .count-item div, .blue-box h5, .our-services h5, .our-package h5, .usecase-title h5, .our-customers h5, .about-us h5, .honours h5, .services-item h5, .blue-box h6, .our-package p, .nav-tabs .nav-link, .cityride-item h3,  .customers-slider-rt h5, .customers-slider-rt div, .members-item h5, .dowloadapp p, .footer-lt p, .our-usecase .blue-box h5 { font-size: 14pt;}
+    .banner-img { max-width: 480px;right: 0rem; }
+    .wtcicle { max-width: 65px; }
+    .drin-count .count-item h1 {font-size: 38pt;}
+    .drin-count .count-item span {font-size: 25pt; margin-top: 14px;}
+    .drin-count {padding-bottom: 4rem;}
+    .project-tab .tab-content {     margin: 2rem 0; }
+    .customer-carousel .owl-next { right: -3px;}
+    .our-customers {  padding: 3rem 15px;}
+    .blcircle { right: -3rem;}
+    p{ line-height: 24px !important;}
+    .services-item { padding: 2rem 2rem;}
+    .team-img {  position: relative; right: inherit;    max-width: 100%; top: inherit;}
+    .dowloadapp { margin-top: 6rem; }.members, .honours, .offer { margin-top: 3rem;}
+    .project-tab {  margin: 1rem 0;}
 }@media screen and (max-width:1024px){.our-usecase .blue-box{padding:1rem}
 .team-img{max-width:556px}
 .offer h2{font-size:25px}
@@ -170,16 +183,20 @@ to{transform:translate(0,-0px)}
 .services-item{padding:3rem 1rem}
 .main-banner h1{font-size:1.8rem}
 header .navbar{padding:.5rem 34px}
-.banner-img{top:-3rem;max-width:478px;z-index:9}
+.banner-img{    top: -3rem;right: 42px; max-width: 384px;z-index: 9;}
 .main-banner{padding-left:22px}
 .blcircle{right:-1rem}
+    .customers-slider-rt { padding: 32px 55px 32px 32px !important;}
+    .footer-top { padding-bottom: 1rem; padding-top: 2rem;}
+    .offer {  padding: 0 20px !important; }
 }@media screen and (max-width:991px){header .navbar-light .navbar-nav{margin-left:0}
 header .navbar-light .navbar-nav .nav-link{padding-top:0}
-header li.nav-item{margin-bottom:0;border-bottom:1px solid #f2f2f2}
+header li.nav-item{margin-bottom:0; }
 header li.nav-item:last-child{border-bottom:0}
 header .navbar{padding:1.5rem 17px}
-.main-banner{padding:8rem 0}
+.main-banner{padding:8rem 0 3rem 0;}
 .main-banner .col-lg-5{display:none}
+    .drin-count { padding-top: 4rem;}
 .drin-count .count-item:nth-child(2):before,.drin-count .count-item:nth-child(2):after{display:none}
 .drin-count .count-item h1{font-size:35px}
 .drin-count .count-item{padding:.3rem 2rem}
@@ -196,34 +213,57 @@ header .navbar{padding:1.5rem 17px}
 .offer-lt{padding:30px 22px}
 .offer-rt .d-flex{display:block!important}
 .offer .coupon{margin-left:0;margin-top:16px}
-.dowloadapp{margin-top:5rem;padding-bottom:0}
-.dowloadapp .mbl-img{margin-top:12px}
+.dowloadapp{margin-top:5rem;padding-bottom:0; padding-top: 2rem;}
+.dowloadapp .mbl-img{margin-top:12px; float: left;}
 .footer-lt{text-align:center}
 .footer-lt img{margin:0 auto;margin-bottom:1.15rem}
 .footer-top{padding-bottom:2rem;padding-top:2rem}
 .footer-menu,.social-link{padding-top:2rem;display:block!important;text-align:center}
 .social-link{padding-top:0}
 .social-link span{float:none}
-}@media screen and (max-width:600px){.drin-count .count-item span{float:none}
+    header .navbar-collapse { margin: 10px 0;     background: #1d9bff;}
+    header .navbar-light .navbar-nav .nav-link {color: #fff;     border-bottom: 2px solid #0990fb;}
+    header .navbar-light .navbar-nav  .nav-item:last-child .nav-link { border-bottom: none;}
+    .services-item .fadedbox {     padding: 12px; }
+    .owl-slider .owl-item .our-features img.ftur-img { position: relative; right: inherit; top: inherit;max-width: 100%;}.owl-slider .owl-item .our-features .blue-box {    margin-top: 0;}
+    .our-features .col-md-6 { padding: 0;}
+        .our-features { margin:0;}
+    .features-carousel {  padding-left: 2rem;}
+    .main-banner h1, .our-services h2, .usecase-title h2, .our-customers h2, .about-us h2, .honours h2, .our-package h2, .blue-box h2, .offer h2, .offer .coupon, .dowloadapp h1 { font-size: 18pt;}
+    .our-usecase .owl-dots { left: 3rem;    right: inherit;}
+    .customer-carousel .owl-nav img { max-width: 34px;}
+    .customers-slider-rt img { max-height: 12px;}
+    .customers-slider-rt { padding: 0 55px 0 32px !important;} .bt-arrow { display: none;}
+}
+@media screen and (max-width:767px) {
+    .drin-count .count-item span{float:none}
 .drin-count .count-item{margin-top:1rem}
-.nav-tabs .nav-link{margin-right:38px;font-size:16px}
+.nav-tabs .nav-link{margin-right:38px;font-size:14px}
 .usecase-carousel .d-flex.align-items-stretch{display:block!important}
 .offer-lt,.offer-rt{border-radius:0}
 .our-usecase .blue-box h2 div{display:none}
 .footer-menu a{margin-right:10px}
-.drin-count{padding:3rem 0}
-header .navbar{padding-right:74px}
+.drin-count{padding:3rem 0} 
 .main-banner .input-group{max-width:100%}
+    .services-item {    padding: 1rem;}
+    .features-carousel {    padding-left: 0.1rem;}
+    .cityride-item {     min-height: 200px; }
+    .row.customers-slider {    margin: 0;}
+    .customers-slider-rt { padding:20px !important;}
+    .offer { text-align: center;}
+    .our-usecase .owl-dots { top: 20%;} 
+}
+@media screen and (max-width:555px){
+    .nav-tabs .nav-link {  margin-right: 4%; width: 28%;}
+    .footer-menu a, .footer-menu a:last-child {   margin:6px auto; display: block;width: 50%; }
+    .footer-menu { padding-top: 10px; }
 }@media screen and (max-width:480px){.wtcicle,.ylarrow{display:none}
-.dowloadapp .mbl-img{max-width:400px}
-.main-banner{padding-bottom:3rem}
-}@media screen and (max-width:400px){.services-item{padding:0 1rem}
-.dowloadapp .mbl-img{max-width:300px}
-.footer-menu{display:block!important}
+.dowloadapp .mbl-img{max-width:350px} 
+}@media screen and (max-width:400px){ 
+.dowloadapp .mbl-img{max-width:288px} 
 h2{font-size:20px}
 .main-banner .input-group{display:block!important}
 .main-banner .input-group .form-control{width:100%}
-.main-banner .input-group .btn-green{width:100%}
-.app-icon img{margin-right:1px}
-.footer-menu a{margin-right:0;display:block;margin-bottom:10px}
+.main-banner .input-group .btn-green{    margin-left: 5px;    margin-top: 10px;}
+.app-icon img{margin-right:1px; max-width: 130px;} 
 }

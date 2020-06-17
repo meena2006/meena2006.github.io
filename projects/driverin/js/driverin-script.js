@@ -89,6 +89,9 @@ jQuery("#members-carousel").owlCarousel({
 	      0: {
 	          items: 1
 	      },
+        600: {
+	          items: 2
+	      },
 
 	      768: {
 	          items: 3
@@ -116,6 +119,9 @@ jQuery("#honours-carousel").owlCarousel({
     responsive: {
 	      0: {
 	          items: 1
+	      },
+        500: {
+	          items: 2
 	      },
 
 	      768: {
