@@ -252,6 +252,7 @@ header .navbar{padding:1.5rem 17px}
     .customers-slider-rt { padding:20px !important;}
     .offer { text-align: center;}
     .our-usecase .owl-dots { top: 20%;} 
+    .social-link img { width: 16px;height: 16px; }
 }
 @media screen and (max-width:555px){
     .nav-tabs .nav-link {  margin-right: 4%; width: 28%;}
