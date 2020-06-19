@@ -34,32 +34,10 @@
             </div>
 
             <nav class="nav-menu d-none d-lg-block">
-                  <ul>
-                    <li><a href="index.html">Home</a></li> 
-                    <li>
-                        <div class="dropdown">
-                            <a class="btn  dropdown-toggle" href="#" role="button" id="Customerslink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  Customers  </a>
-                            <div class="dropdown-menu" aria-labelledby="Customerslink">
-                                <a class="dropdown-item" href="happy-together.html">Happy Together</a>
-                            </div>
-                        </div>
-                    </li>
-                     <li>
-                        <div class="dropdown">
-                            <a class="btn  dropdown-toggle" href="#" role="button" id="Demolink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  Demo  </a>
-                            <div class="dropdown-menu" aria-labelledby="Demolink">
-                                <a class="dropdown-item" href="request-for-demo.html">Request for Demo</a>
-                            </div>
-                        </div>
-                    </li>
-                     <li>
-                        <div class="dropdown">
-                            <a class="btn  dropdown-toggle" href="#" role="button" id="Supportlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  Support  </a>
-                            <div class="dropdown-menu" aria-labelledby="Supportlink">
-                                <a class="dropdown-item" href="lets-connect.html">Let’s Connect</a>
-                            </div>
-                        </div>
-                    </li>
+                <ul>
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="#about">CRM</a></li>
+
                     <li><a href="#contact">Contact</a></li>
 
                 </ul>
@@ -143,7 +121,25 @@
 
 
 
- 
+
+        <section id="cta" class="cta">
+            <div class="skew"></div>
+            <div class="container">
+
+                <div class="row" data-aos="zoom-out">
+                    <div class="col-lg-9 text-center text-lg-left">
+                        <h3>Call To Action</h3>
+                        <p> Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum is simply dummy text of the printing and type setting industry. Lorem Ipsum is simply dummy text of the printing and type setting industry.</p>
+                    </div>
+                    <div class="col-lg-3 cta-btn-container text-center">
+                        <a class="cta-btn align-middle" href="tel:9176190007"><i class="icofont-ui-call"></i> +91 9176190007</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </section>
+
         <section id="contact" class="contact">
             <div class="container">
 
@@ -154,21 +150,21 @@
 
                 <div class="row mt-5">
 
-                    <div class="col-lg-12" data-aos="fade-right">
-                        <div class="row info">
-                            <div class="col-md-4 address">
+                    <div class="col-lg-4" data-aos="fade-right">
+                        <div class="info">
+                            <div class="address">
                                 <i class="icofont-google-map"></i>
                                 <h4>Location:</h4>
                                 <p>118, 14th Cross Street, New colony, Chromepet, Chennai - 600044.</p>
                             </div>
 
-                            <div class="col-md-4 email">
+                            <div class="email">
                                 <i class="icofont-envelope"></i>
                                 <h4>Email:</h4>
                                 <p>info@gwayerp.com</p>
                             </div>
 
-                            <div class="col-md-4 phone">
+                            <div class="phone">
                                 <i class="icofont-phone"></i>
                                 <h4>Call:</h4>
                                 <p>+91 9176190007
@@ -178,7 +174,32 @@
                         </div>
 
                     </div>
- 
+
+                    <div class="col-lg-8 mt-5 mt-lg-0" data-aos="fade-left">
+
+                        <form class="email-form">
+                            <div class="form-row">
+                                <div class="col-md-6 form-group">
+                                    <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
+                                </div>
+                                <div class="col-md-6 form-group">
+                                    <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
+                                </div>
+                            </div>
+                            <div class="form-group">
+                                <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject" />
+                            </div>
+                            <div class="form-group">
+                                <textarea class="form-control" name="message" rows="5"></textarea>
+                            </div>
+
+                            <div class="text-center">
+                                <button type="submit">Send Message</button>
+                            </div>
+                        </form>
+
+                    </div>
+
                 </div>
 
             </div>
