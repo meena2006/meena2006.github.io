@@ -176,8 +176,8 @@ $('#quploadfile').on('change',function(){
 
 function sticky_relocate() {
 			    var window_top = $(window).scrollTop() ;
-			    var footer_top = $(".footer").offset().top - 30;
-			    var div_top = $('#sticky-anchor').offset().top;
+			    var footer_top = $(".footer").offset().top - 35;
+			    var div_top = $('#sticky-anchor').offset().top - 20;
 			    var div_height = $(".sidebar").height();
 			    var leftHeight = $('.left-container').height(); 
   
