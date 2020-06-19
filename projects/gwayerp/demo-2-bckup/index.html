@@ -38,9 +38,30 @@
                     <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="#about">About</a></li>
                     <li><a href="#services">Services</a></li>
-                    <li><a href="#customers">Customers</a></li>
-                    <li><a href="#demo">Demo</a></li>
-                    <li><a href="#support">Support</a></li>
+                    <li>
+                        <div class="dropdown">
+                            <a class="btn  dropdown-toggle" href="#" role="button" id="Customerslink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  Customers  </a>
+                            <div class="dropdown-menu" aria-labelledby="Customerslink">
+                                <a class="dropdown-item" href="happy-together.html">Happy Together</a>
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="dropdown">
+                            <a class="btn  dropdown-toggle" href="#" role="button" id="Demolink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  Demo  </a>
+                            <div class="dropdown-menu" aria-labelledby="Demolink">
+                                <a class="dropdown-item" href="request-for-demo.html">Request for Demo</a>
+                            </div>
+                        </div>
+                    </li>
+                     <li>
+                        <div class="dropdown">
+                            <a class="btn  dropdown-toggle" href="#" role="button" id="Supportlink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">  Support  </a>
+                            <div class="dropdown-menu" aria-labelledby="Supportlink">
+                                <a class="dropdown-item" href="lets-connect.html">Let’s Connect</a>
+                            </div>
+                        </div>
+                    </li>
                     <li><a href="#contact">Contact</a></li>
 
                 </ul>
@@ -110,6 +131,9 @@
 
             </div>
         </section>
+
+
+
 
 
         <section id="services" class="services">
@@ -188,138 +212,6 @@
                         </a>
                     </div>
                 </div>
-
-            </div>
-        </section>
-        <section id="customers" class="customers">
-            <div class="container">
-
-                <div class="section-title" data-aos="zoom-out">
-                    <h2>Customers</h2>
-                    <p>HAPPY TOGETHER</p>
-                </div>
-
-                <div class="col-md-12 content" data-aos="fade-up">
-                    ------
-                </div>
-
-            </div>
-        </section>
-
-        <section id="demo" class="demo">
-            <div class="container contact">
-
-                <div class="section-title" data-aos="zoom-out">
-                    <h2>Demo</h2>
-                    <p>REQUEST FOR DEMO</p>
-                </div>
-
-                <form class="email-form" data-aos="fade-up">
-                    <div class="form-row">
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="name" class="form-control" id="name" placeholder="Your Name" />
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="name" class="form-control" name="cname" id="cname" placeholder="Your Company Name" />
-                        </div>
-                    </div>
-                    <div class="form-row">
-                        <div class="col-md-6 form-group">
-                            <input type="text" name="mobile" class="form-control" id="mobile" placeholder="Your Mobile" />
-                        </div>
-                        <div class="col-md-6 form-group">
-                            <input type="email" class="form-control" name="email" id="email" placeholder="Your Email" />
-                        </div>
-                    </div>
-
-                    <div class="form-group">
-                        <textarea class="form-control" name="address" rows="2" placeholder="Your Address"></textarea>
-                    </div>
-                    <div class="form-group">
-                        <textarea class="form-control" name="comments" rows="4" placeholder="Your Comments"></textarea>
-                        <div class="mx-chr">(Max 2000 Characters)</div>
-                    </div>
-
-                    <div class="text-center">
-                        <button type="submit">Send Request</button>
-                    </div>
-                </form>
-
-            </div>
-        </section>
-
-
-        <section id="support" class="support">
-            <div class="container">
-
-                <div class="section-title" data-aos="zoom-out">
-                    <h2>Support</h2>
-                    <p>LET'S CONNECT</p>
-                </div>
-
-                <div class="row content" data-aos="fade-up">
-
-                    <div class="col-md-7">
-                        <div class="section-title2">
-                            <p>WRITE TO US</p>
-                        </div>
-                        <h5> Mail to: <a href="mailto:support@gwayerp.com">support@gwayerp.com</a> </h5>
-
-                    </div>
-                    <div class="col-md-5">
-                        <div class="section-title2">
-                            <p>Query</p>
-                        </div>
-                        <button type="submit" class="btn-green" data-toggle="modal" data-target="#queryModal">Submit a Query</button>
-
-                    </div>
-                </div>
-                <div class="col-md-12 p-0 contact" data-aos="fade-up">
-                    <div class="section-title2 mt-5">
-                        <p>Feedback</p>
-                    </div>
-
-                    <form class="email-form">
-                        <div class="form-row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="fname" class="form-control" id="fname" placeholder="Your Name" />
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="name" class="form-control" name="fcname" id="fcname" placeholder="Your Company Name" />
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="cdetail" class="form-control" id="cdetail" placeholder="Your Contact Detail" />
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <textarea class="form-control" name="address" rows="1" placeholder="Address"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <textarea class="form-control" name="feedback" rows="4" placeholder="Your Feedback"></textarea>
-                            <div class="mx-chr">(Max 5000 Characters)</div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-6 form-group">
-                                <label>Attach if any</label>
-                                <div class="input-group mb-3">
-                                    <div class="custom-file">
-                                        <input type="file" class="custom-file-input" id="uploadfile" />
-                                        <label class="custom-file-label" for="uploadfile">Choose file</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-
-                        <div class="text-center">
-                            <button type="submit">Send Feedback</button>
-                        </div>
-                    </form>
-                </div>
-
-
 
             </div>
         </section>
@@ -495,63 +387,6 @@
 
         </div>
     </footer>
-
-    <div class="modal fade" id="queryModal" tabindex="-1" role="dialog" aria-labelledby="queryModalLabel" aria-hidden="true">
-        <div class="modal-dialog">
-            <div class="modal-content">
-                <form class="email-form">
-                    <div class="modal-header">
-                        <h5 class="modal-title" id="exampleModalLabel">Submit a Query</h5>
-                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
-                            <span aria-hidden="true">&times;</span>
-                        </button>
-                    </div>
-                    <div class="modal-body">
-                        <div class="form-row">
-                            <div class="col-md-6 form-group">
-                                <input type="text" name="qname" class="form-control" id="qname" placeholder="Your Name" />
-                            </div>
-                            <div class="col-md-6 form-group">
-                                <input type="name" class="form-control" name="qcname" id="qcname" placeholder="Your Company Name" />
-                            </div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-12 form-group">
-                                <input type="text" name="qcdetail" class="form-control" id="qcdetail" placeholder="Your Contact Detail" />
-                            </div>
-                            <div class="col-md-12 form-group">
-                                <textarea class="form-control" name="qaddress" rows="2" placeholder="Address"></textarea>
-                            </div>
-                        </div>
-
-                        <div class="form-group">
-                            <textarea class="form-control" name="query" rows="4" placeholder="Your Feedback"></textarea>
-                            <div class="mx-chr">(Max 5000 Characters)</div>
-                        </div>
-                        <div class="form-row">
-                            <div class="col-md-12 form-group">
-                                <label>Attach if any</label>
-                                <div class="input-group mb-3">
-                                    <div class="custom-file">
-                                        <input type="file" class="custom-file-input" id="quploadfile" />
-                                        <label class="custom-file-label" for="quploadfile">Choose file</label>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
-                        <button type="button" class="btn btn-green">Submit</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-    </div>
-
-    <div class="fixed-right" data-aos="zoom-out">
-        <a href="#" target="_blank"><img src="assets/img/download2.png" class="img-fluid"></a>
-    </div>
 
     <a href="#" class="back-to-top"><i class="ri-arrow-up-line"></i></a>
 
