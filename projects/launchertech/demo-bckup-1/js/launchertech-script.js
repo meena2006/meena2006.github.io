@@ -11,12 +11,10 @@ jQuery("#testimonials-carousel").owlCarousel({
 	//navText: ["<img src='images/left-arrow.jpg'>", "<img src='images/right-arrow.jpg'>"]
 
 });
-
-$('#custCarousel').carousel({ interval: 6000 });
  
 AOS.init({
-  easing: 'ease-out-back',
-  duration: 1000
+  duration: 1000,
+    once: true
 });
  
  
@@ -33,19 +31,4 @@ AOS.init({
   if ($(window).scrollTop() > 80) {
     $('.fixed-top').addClass('header-scrolled');
   }
-  
-
-			$('.down-arr').on('click', function(e) {
-				$('html, body').animate({
-					scrollTop: $(window).height()
-				}, 1200);
-			});
-$("a[href^='#']").click(function(e) {
-	e.preventDefault();
-	
-	var position = $($(this).attr("href")).offset().top - 70;
-
-	$("body, html").animate({
-		scrollTop: position
-	});
-});
+ 
