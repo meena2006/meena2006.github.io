@@ -83,11 +83,11 @@ h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif}
 .section-title p{margin:0;margin:0;font-size:36px;font-weight:700;text-transform:uppercase;font-family:"Poppins",sans-serif;color:#343a40}
 .section-title2 p {  margin-bottom:15px;font-size:22px;font-weight:700;text-transform:uppercase;font-family:"Poppins",sans-serif;color:#343a40 }
 .about{padding-top:80px; padding-bottom:1rem;}
-.inner-banner{padding-top:200px;background:url('../img/crm-banner.jpg') no-repeat;background-attachment:fixed;background-size:cover;padding-bottom:200px;background-position:bottom;position:relative}
+.inner-banner{padding-top:200px;background:url('../img/crm-banner.jpg') no-repeat;background-attachment:fixed;background-size:cover;padding-bottom:200px;background-position:bottom;position:relative; max-height: 600px;}
 .inner-banner .app-wave{width:100%;overflow:hidden;position:absolute;z-index:1;bottom:-250px}
 .inner-banner h2{margin-bottom:30px;color:#fff}
 .inner-banner p{margin-bottom:20px;color:#fff}
-.inner-banner:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.21);background:rgba(101,70,154,0.3215686274509804)}
+.inner-banner:before{content:'';position:absolute;left:0;top:0;width:100%;height:100%;background:rgba(0,0,0,0.21);background:rgba(101,70,154,0.3215686274509804); background: rgba(101, 70, 154, 0.56);}
 .about .content h3{font-weight:600;font-size:26px}
 .about .content ul{list-style:none;padding:0}
 .about .content ul li{padding-left:28px;position:relative}
@@ -101,14 +101,25 @@ h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif}
 .about-inner .row:last-child{margin-bottom:0}
 .skew{box-shadow:inset 0 0 0 1px rgba(0,0,0,0.05);position:absolute;top:0;left:0;bottom:0;right:0;background:#65469a;transform:skewY(-3deg) scaleY(0.75) translateY(15%);transform-origin:0 50%}
 .services{padding-bottom:0}
-.services .icon-box{padding:20px;position:relative;border-radius:10px;background:#fff;box-shadow:0 2px 29px 0 rgba(68,88,144,0.12);transition:all .4s ease-in-out;width:100%}
-.services .icon-box:hover{transform:translateY(-10px);box-shadow:0 2px 35px 0 rgba(68,88,144,0.2)}
-.services .icon{cursor:pointer}
-.services .icon-box img{max-height:85px}
-.services .icon i{font-size:64px;line-height:1;transition:.5s}
-.services .title{font-weight:700;margin-top:15px;font-size:16px;margin-bottom:70px;margin-top:25px}
-.services .title a{color:#65469a;transition:ease-in-out .3s}
-.services .title a:hover{color:#1bbaa4}
+.services .icon-box, .customers .icon-box{padding:20px;position:relative;border-radius:10px;background:#fff;box-shadow:0 2px 29px 0 rgba(68,88,144,0.12);transition:all .4s ease-in-out;width:100%}
+.services .icon-box:hover, .customers .icon-box:hover{transform:translateY(-10px);box-shadow:0 2px 35px 0 rgba(68,88,144,0.2)}
+.services .icon, .customers .icon{cursor:pointer}
+.customers .icon-box {     width: 165px;
+    text-align: center;
+    margin: 0 auto;}
+.cs-item.text-center {
+    margin-top: 25px;
+}
+.services .icon-box img, .customers .icon-box img{max-height:85px; width: auto; margin: 0 auto;}
+.services .icon i, .customers .icon i{font-size:64px;line-height:1;transition:.5s}
+.services .title, .customers .title{font-weight:700;margin-top:15px;font-size:16px;margin-bottom:70px;margin-top:25px; color: #555;}
+.services .title a, .customers .title a{color:#65469a;transition:ease-in-out .3s}
+.services .title a:hover, .customers .title a:hover{color:#1bbaa4}
+.cushpy { border: 1px solid #f2f2f2;
+    padding-bottom: 20px}
+ .customers .title a{color:#555; }
+  .customers .title a:hover{color:#65469a}
+.customers .title { margin-bottom: 0;}
 .services .description{font-size:14px;margin-left:40px;line-height:24px;margin-bottom:0}
 .faq{padding:60px 0}
 .faq .faq-list{padding:0;list-style:none}
@@ -197,6 +208,10 @@ button{outline:none!important;outline-offset:0}
     -o-transition: all 0.25s ease-in-out;
     transition: all 0.25s ease-in-out;
 }
+.inmt { margin-top: -50px !important; }
+.crimg { border: 2px solid #f2f2f2; box-shadow: 0 1px 10px #e8e6e6; border-radius: 16px; padding:5px;}
+.inpur.inner-banner:before { background: rgba(101, 70, 154, 0.37); }
+.inpur.inner-banner .btn { border: 2px solid #fff; }
  
 @media screen and (max-width:1024px) { 
     .inner-banner .app-wave { bottom: -230px; }

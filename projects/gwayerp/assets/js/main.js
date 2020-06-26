@@ -131,19 +131,20 @@
    
 
   // Testimonials carousel  
-  $(".testimonials-carousel").owlCarousel({
+  $(".customers-carousel").owlCarousel({
     autoplay: true,
     dots: true,
+      items : 5,
     loop: true,
     responsive: {
       0: {
         items: 1
       },
       768: {
-        items: 2
+        items: 3
       },
       900: {
-        items: 3
+        items: 5
       }
     }
   });
@@ -174,28 +175,4 @@ $('#quploadfile').on('change',function(){
             });
 
 
-function sticky_relocate() {
-			    var window_top = $(window).scrollTop() ;
-			    var footer_top = $(".footer").offset().top - 30;
-			    var div_top = $('#sticky-anchor').offset().top;
-			    var div_height = $(".sidebar").height();
-			    var leftHeight = $('.left-container').height(); 
-  
-			    if (window_top + div_height > footer_top){
-			        $('.sidebar').removeClass('stick');
-			    	$('.sidebar').addClass('abs');
-			    	 $('.right-conatainer').css('min-height', leftHeight + 'px');
-			    	}
-			    else if (window_top > div_top) {
-			        $('.sidebar').addClass('stick');
-			        $('.sidebar').removeClass('abs');
-			    } else {
-			        $('.sidebar').removeClass('stick');
-			        $('.sidebar').removeClass('abs');
-			    }
-			}
-
-			$(function () {
-			    $(window).scroll(sticky_relocate);
-			    sticky_relocate();
-			});
+ 
