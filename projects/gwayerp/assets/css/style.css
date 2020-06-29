@@ -12,7 +12,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif}
 .header.header-inner{margin-bottom:50px}
 .header .logo h1{font-size:28px;margin:0;padding:0;line-height:1;font-weight:700;letter-spacing:1px}
 .header .logo h1 a,.header .logo h1 a:hover{color:#fff;text-decoration:none}
-.header .logo img{padding:0;margin:0;max-height:52px}
+.header .logo img{padding:0;margin:0;max-height:40px}
 .header.header-scrolled a,.header.header-inner a{color:#333}
 .header.header-scrolled .nav-menu .active>a,.header.header-scrolled .nav-menu li>a:hover,.header.header-inner .nav-menu .active>a,.header.header-inner .nav-menu li>a:hover{color:#fff}
 .header.header-scrolled .scrlld,.header.header-inner .scrlld{display:block}
