@@ -134,7 +134,7 @@
   $(".customers-carousel").owlCarousel({
     autoplay: true,
     dots: true,
-      items : 5,
+      items : 4,
     loop: true,
     responsive: {
       0: {
@@ -144,7 +144,7 @@
         items: 3
       },
       900: {
-        items: 5
+        items: 4
       }
     }
   });

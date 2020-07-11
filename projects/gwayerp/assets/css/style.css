@@ -6,7 +6,8 @@ h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif}
 .back-to-top i{display:flex;align-items:center;justify-content:center;font-size:24px;width:40px;height:40px;border-radius:50px;background:#1bbaa4;color:#fff;transition:all .4s}
 .back-to-top i:hover{background:#139a87;color:#fff}
 @media screen and (max-width:768px){[data-aos-delay]{transition-delay:0!important}
-}.header{height:70px;transition:all .5s;z-index:997;transition:all .5s;background:rgba(42,44,57,0.9)}
+}
+.header{height:70px;transition:all .5s;z-index:997; background:none}
 .header.header-transparent{background:transparent}
 .header.header-scrolled,.header.header-inner{background:#fff;box-shadow:0 10px 10px -10px #ccc}
 .header.header-inner{margin-bottom:50px}
@@ -52,7 +53,17 @@ h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif}
 .mobile-nav-active{overflow:hidden}
 .mobile-nav-active .mobile-nav{opacity:1;visibility:visible}
 .mobile-nav-active .mobile-nav-toggle i{color:#fff}
-.hero{width:100%;overflow:hidden;position:relative;background:linear-gradient(0deg,#685094 0,#65469a 100%);padding:165px 0 0 0}
+.hero{width:100%;overflow:hidden;position:relative;background:linear-gradient(0deg,#685094 0,#65469a 100%);padding:165px 0 0 0; background: url(../../assets/img/HomePage.jpg);
+    background-size: cover;}
+.hero:before {
+    position: absolute;
+    content: '';
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background: linear-gradient(0deg,#685094d9 0,#65469a8c 100%);
+}
 .hero h2{color:#fff;margin-bottom:30px;font-size:48px;font-weight:700}
 .hero p{-webkit-animation-delay:.4s;animation-delay:.4s;margin:0 auto 30px auto;color:#fff}
 .hero-lt{padding-bottom:65px}
@@ -104,18 +115,18 @@ h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif}
 .services .icon-box, .customers .icon-box{padding:20px;position:relative;border-radius:10px;background:#fff;box-shadow:0 2px 29px 0 rgba(68,88,144,0.12);transition:all .4s ease-in-out;width:100%}
 .services .icon-box:hover, .customers .icon-box:hover{transform:translateY(-10px);box-shadow:0 2px 35px 0 rgba(68,88,144,0.2)}
 .services .icon, .customers .icon{cursor:pointer}
-.customers .icon-box {     width: 165px;
-    text-align: center;
+.customers .icon-box {     width: 90%;
+    text-align: center;padding: 0;
     margin: 0 auto;}
 .cs-item.text-center {
     margin-top: 25px;
 }
-.services .icon-box img, .customers .icon-box img{max-height:85px; width: auto; margin: 0 auto;}
+.services .icon-box img, .customers .icon-box img{max-height:168px; width: auto; margin: 0 auto;}
 .services .icon i, .customers .icon i{font-size:64px;line-height:1;transition:.5s}
 .services .title, .customers .title{font-weight:700;margin-top:15px;font-size:16px;margin-bottom:70px;margin-top:25px; color: #555;}
 .services .title a, .customers .title a{color:#65469a;transition:ease-in-out .3s}
 .services .title a:hover, .customers .title a:hover{color:#1bbaa4}
-.cushpy { border: 1px solid #f2f2f2;
+.cushpy { 
     padding-bottom: 20px}
  .customers .title a{color:#555; }
   .customers .title a:hover{color:#65469a}
@@ -136,6 +147,7 @@ h1,h2,h3,h4,h5,h6{font-family:"Raleway",sans-serif}
 .contact .info h4{padding:0 0 0 60px;font-size:22px;font-weight:600;margin-bottom:5px;color:#343a40}
 .contact .info p{padding:0 0 0 60px;margin-bottom:0;font-size:14px;color:#555974}
 .contact .info .email:hover i,.contact .info .address:hover i,.contact .info .phone:hover i{background:#65469a;color:#fff}
+.info .col-md-4 {   margin-bottom: 20px;}
 .contact .email-form{width:100%;background:#fff}
 .contact .email-form .form-group{padding-bottom:8px}
 .contact .email-form .validate{display:none;color:red;margin:0 0 15px 0;font-weight:400;font-size:13px}
@@ -211,8 +223,30 @@ button{outline:none!important;outline-offset:0}
 .inmt { margin-top: -50px !important; }
 .crimg { border: 2px solid #f2f2f2; box-shadow: 0 1px 10px #e8e6e6; border-radius: 16px; padding:5px;}
 .inpur.inner-banner:before { background: rgba(101, 70, 154, 0.37); }
-.inpur.inner-banner .btn { border: 2px solid #fff; }
- 
+.inner-banner .btn { border: 2px solid #fff; }
+.whyimg { margin-top: 20px; text-align: center;}
+.whyimg img { max-height: 75px; margin-bottom: 30px; margin-top: 0;}
+.whyimg h3 { font-size: 18px;
+    color: #333333;
+    font-weight: 700;
+    margin-bottom: 16px;}
+.whyimg p {  font-size: 14px; margin-bottom: 35px;}
+.customers {
+    background: #65469a;
+}
+.customers p, .customers .icon-box{
+    color: #fff; text-align: center;
+}
+.customers h2{color: #ece8e8;text-align: center;
+}
+.customers .icon-box img {
+    width:100%;
+    height: 200px; max-height: inherit;
+    border-radius: 10px 10px 0 0;
+}
+.customers .icon-box h4 {
+    padding:15px; margin-top: 0;
+}
 @media screen and (max-width:1024px) { 
     .inner-banner .app-wave { bottom: -230px; }
 }
