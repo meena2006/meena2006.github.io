@@ -98,30 +98,21 @@
 
   
 
-   $(".products-title-carousel").owlCarousel({
+   $(".how-we-carousel").owlCarousel({
     autoplay: true,
-    dots: false, 
-    loop: true, 
-    animateOut: 'slideOutUp',
-  animateIn: 'slideInUp',
+    dots: true,
+    loop: true,
     responsive: {
       0: {
         items: 1
       },
       768: {
-        items: 4
+        items: 2
       },
       900: {
-        items: 4
+        items: 3
       }
     }
-  });
- $(".products-img-carousel").owlCarousel({
-    autoplay: true,
-  animateOut: 'fadeOut',
-    dots: false,
-    loop: true,
-    items: 1
   });
  
   $(".testimonials-carousel").owlCarousel({
@@ -148,4 +139,3 @@
   });
 
 })(jQuery);
-
