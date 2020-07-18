@@ -626,9 +626,12 @@ p { line-height: 28px;}
 
 .features .content .icon-box i {
   font-size: 48px;
-  float: left; margin-left: 4px;
+  float: left;  padding: 10px;
 }
 
+.features .content .icon-box i img {
+ width: 95px; height: 95px;
+}
 .features .content .icon-box p {
   font-size: 15px;
   color: #979aa1;
