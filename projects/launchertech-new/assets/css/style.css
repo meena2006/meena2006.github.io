@@ -1,12 +1,3 @@
-/*
-@font-face {
-    font-family: 'Beway';
-    src: url('../fonts/Beway.otf') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-
-}
-*/
 @font-face {
   font-family: 'Beway';
   src: url('../fonts/Beway-Regular.eot?#iefix') format('embedded-opentype'),  url('../fonts/Beway-Regular.otf')  format('opentype'),
@@ -89,7 +80,7 @@ h1, h2, h3, h4, h5, h6 {
 #header .logo img {
   padding: 0;
   margin: 0;
- max-height: 86px;
+ height: 86px;
     margin-top: -6px; transition: all 300ms linear;
 }
 #header.header-scrolled .logo img {max-height: 58px; }
