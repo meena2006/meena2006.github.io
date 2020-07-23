@@ -241,7 +241,7 @@ button{outline:none!important;outline-offset:0}
 }
 .customers .icon-box img {
     width:100%;
-    height: 200px; max-height: inherit;
+    height: auto; max-height: inherit;
     border-radius: 10px 10px 0 0;
 }
 .customers .icon-box h4 {
