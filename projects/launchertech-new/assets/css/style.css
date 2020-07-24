@@ -328,9 +328,11 @@ h6 {
  margin-bottom: 50px;
  color: #000;
  text-shadow: 0 2px 2px rgba(0, 0, 0, 0.25), 0px 2px 2px rgba(0, 0, 0, 0.25);
+/*
  font-family: 'Beway';
  letter-spacing: 4px;
  text-transform: uppercase;
+*/
 }
 .hero h1 span {
  color: #5076ff;
