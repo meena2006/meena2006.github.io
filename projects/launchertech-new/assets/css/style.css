@@ -589,7 +589,11 @@ p {
  margin: 10px 0;
  border: 1px solid #f2f2f3;
  padding: 20px 0;
- border-radius: 6px;
+ border-radius: 6px;    transition: all .4s ease-in-out;
+}
+.features .content .icon-box:hover{
+ transform: translateY(-10px);
+    box-shadow: 0 2px 35px 0 rgba(68,88,144,0.2);
 }
 .features .content .icon-box h4 {
  font-size: 20px;
@@ -1156,7 +1160,11 @@ p {
  font-weight: 900;
  background: #fff;
  color: #000;
- text-align: center;
+ text-align: center;    transition: all .4s ease-in-out;
+}
+.why-bx:hover {
+ transform: translateY(-10px);
+    box-shadow: 0 2px 35px 0 rgba(68,88,144,0.2);
 }
 .why-bx div {
  display: inherit;
@@ -1179,7 +1187,7 @@ p {
 .mgr-2 {
  right: 42px;
  position: absolute;
- top: 38%;
+ top: 37%;
 }
 .mgr-3 {
  right: -44px;
@@ -1196,7 +1204,7 @@ p {
 .mgr-22 {
  left: 42px;
  position: absolute;
- top: 38%;
+ top: 37%;
 }
 .mgr-33 {
  left: -44px;
@@ -1236,7 +1244,7 @@ p {
   max-width: 85%;
  }
  .container.hw-wrap {
-  max-width: 1600px;
+  max-width: 1366px;
  }
  .h91 {
   padding-top: 6rem;
@@ -1246,12 +1254,12 @@ p {
  }
  .line-br5 {
   left: 23%;
-  top: 182px;
+  top: 167px;
   width: 62%;
  }
  .line-br55 {
   left: 21%;
-  top: 195px;
+  top: 170px;
   width: 67%;
  }
  .line-br33 {
@@ -1381,15 +1389,16 @@ p {
  .hero h1 {
   font-size: 24px;
  }
+ .hero-app-0 {
+  text-align: right;
+ }
+ .hero-app-0 img {
+  max-width: 20%;
+ }
 }
 @media screen and (max-width:400px) {
  .back-to-top {
   bottom: 56px;
  }
- .hero-app-0 {
-  text-align: right;
- }
- .hero-app-0 img {
-  max-width: 50%;
- }
+ 
 } 
