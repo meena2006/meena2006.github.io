@@ -97,29 +97,10 @@
   });
 
   
-
-   $(".products-title-carousel").owlCarousel({
+ $(".products-carousel").owlCarousel({
     autoplay: true,
-    dots: false, 
-    loop: true, 
-    animateOut: 'slideOutUp',
-  animateIn: 'slideInUp',
-    responsive: {
-      0: {
-        items: 1
-      },
-      768: {
-        items: 4
-      },
-      900: {
-        items: 4
-      }
-    }
-  });
- $(".products-img-carousel").owlCarousel({
-    autoplay: true,
-  animateOut: 'fadeOut',
-    dots: false,
+         autoplayTimeout:7000,
+    dots: true,
     loop: true,
     items: 1
   });

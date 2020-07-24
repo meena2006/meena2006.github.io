@@ -22,7 +22,7 @@
 
 <body>
  <div class="hero-app-0 floating"><img src="assets/img/middle-right.png" alt=""></div>
- <header id="header" class="fixed-top">
+ <header id="header" class="header fixed-top">
   <div class="container-fluid d-flex">
 
    <div class="logo mr-auto">
@@ -31,10 +31,12 @@
 
    <nav class="nav-menu d-none d-lg-block">
     <ul>
-     <li class="active"><a href="#header">Home</a></li>
-     <li><a href="#why">Why Choose Us</a></li>
-     <li><a href="#about">About Us</a></li>
+     <li class="active"><a href="#hero">Home</a></li>
      <li><a href="#products">Our Products</a></li>
+     <li><a href="#why">Why Choose Us</a></li>
+     <li><a href="#how">How we Works</a></li>
+     <li><a href="#tech">Our Technologies</a></li>
+
      <li class="get-started"><a href="#contact">Contact Us</a></li>
 
     </ul>
@@ -43,7 +45,7 @@
   </div>
  </header>
 
- <section id="hero" class="d-flex align-items-center"> 
+ <section id="hero" class="hero d-flex align-items-center">
   <div class="container">
    <div class="hero-app-1 custom-animation"><img src="assets/img/icon_1.png" alt=""></div>
    <div class="hero-app-2 custom-animation2"><img src="assets/img/icon_2.png" alt=""></div>
@@ -54,7 +56,7 @@
    <div class="row">
     <div class="col-lg-12 text-center d-lg-flex flex-lg-column justify-content-center align-items-stretch pt-5 pt-lg-0 " data-aos="fade-up">
      <div>
-      <h1><span>We</span> Provide Solutions to   <br>Help your Business  <span>Faster</span></h1>
+      <h1><span>We</span> Provide Solutions to <br>Help your Business <span>Faster</span></h1>
       <div class="h1-bar"></div>
       <p>"Lorem Ipsum is simply dummy text of the printing industry."</p>
       <p class="mb-5">- Lorem Ipsum</p>
@@ -73,163 +75,209 @@
    <div class="container">
 
     <div class="section-title">
-     <h2>Our Products <div></div></h2> 
+     <h2>Our Products <div></div>
+     </h2>
     </div>
 
     <div class="row no-gutters">
-     <div class="col-xl-12 d-flex  align-items-center justify-content-center">
-      <div class="col-md-5 icon-box" data-aos="fade-up"> 
-       <h4><a href="#">Launcher Taxi </a> </h4> 
-       <h4><a href="#">Launcher Taxi User</a></h4> 
-       <h4><a href="#">Launcher Taxi Driver</a> </h4> 
-        <h4><a href="#">Ecommerce </a></h4> 
+
+     <div class="owl-carousel products-carousel">
+      <div class="item">
+       <div class="row d-flex  align-items-center justify-content-center">
+        <div class="col-lg-5 col-md-12 icon-box" data-aos="fade-up">
+         <h4><a href="#">Launcher Taxi </a> </h4>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+         <br>
+         <p><a href="#" class="lt-btn">View More </a> </p>
+        </div>
+        <div class="col-lg-7 col-md-12 icon-box" data-aos="fade-up" data-aos-delay="100">
+         <img src="assets/img/our-products-svg.svg" alt="" class="img-fluid">
+        </div>
+       </div>
       </div>
-      <div class="col-md-7 icon-box" data-aos="fade-up" data-aos-delay="100">
-       <img src="assets/img/our-products-svg.svg" alt="" class="img-fluid">        
-      </div> 
+      <div class="item">
+       <div class="row d-flex  align-items-center justify-content-center">
+        <div class="col-lg-5 col-md-12 icon-box" data-aos="fade-up">
+         <h4><a href="#">Launcher Taxi </a> </h4>
+         <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
+         <br>
+         <p><a href="#" class="lt-btn">View More </a> </p>
+        </div>
+        <div class="col-lg-7 col-md-12 icon-box" data-aos="fade-up" data-aos-delay="100">
+         <img src="assets/img/our-products-svg.svg" alt="" class="img-fluid">
+        </div>
+       </div>
+      </div>
      </div>
+
     </div>
 
    </div>
   </section>
 
   <section id="why" class="why">
-   <div class="container" data-aos="fade-up">
+   <div class="container">
     <div class="section-title">
-     <h2 class="mb-5">Why Choose Us <div></div></h2>
+     <h2 class="mb-5">Why Choose Us <div></div>
+     </h2>
     </div>
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-delay="100">
      <div class="why-bx m-auto">
       <img src="assets/img/seo-ICON.svg"> Team Collabaration
      </div>
     </div>
     <div class="row">
      <div class="col-md-3">
-      <div class="why-bx mgr-1 ">
+      <div class="why-bx mgr-1 " data-aos="fade-up" data-aos-delay="300">
        <img src="assets/img/BUSINESS-STARTEGY-ICON.svg"> Business Strategy
       </div>
-      <div class="why-bx mgr-2">
+      <div class="why-bx mgr-2" data-aos="fade-up" data-aos-delay="500">
        <img src="assets/img/seo-ICON.svg"> SEO
       </div>
-      <div class="why-bx mgr-3">
+      <div class="why-bx mgr-3" data-aos="fade-up" data-aos-delay="700">
        <img src="assets/img/UIUX-ICON.svg"> UI/UX Design
       </div>
      </div>
-     <div class="col-md-6 pt-2 text-center">
-      <img src="assets/img/why-choose-us.svg" class="img-fluid mb-3 mt-1 whyim">
+     <div class="col-md-6 pt-2 text-center" data-aos="fade-up">
+      <img src="assets/img/why-choose-us.svg" class="img-fluid mb-5 mt-5 whyim">
      </div>
      <div class="col-md-3">
-      <div class="why-bx mgr-11 ">
+      <div class="why-bx mgr-11 " data-aos="fade-up" data-aos-delay="900">
        <img src="assets/img/brand-ICON.svg"> Branding
       </div>
-      <div class="why-bx mgr-22">
+      <div class="why-bx mgr-22" data-aos="fade-up" data-aos-delay="1100">
        <img src="assets/img/DIGITAL-MARKETING-ICON.svg"> Digital Marketing
       </div>
-      <div class="why-bx mgr-33">
+      <div class="why-bx mgr-33" data-aos="fade-up" data-aos-delay="1300">
        <img src="assets/img/ADV-ICON.svg"> Advertisement
       </div>
      </div>
     </div>
-    <div class="row">
+    <div class="row" data-aos="fade-up" data-aos-delay="1500">
      <div class="why-bx m-auto">
       <img src="assets/img/SUPPORT-ICON.svg"> 24/7 Customer Service
      </div>
     </div>
    </div>
   </section>
-  <section id="services" class="services how">
+  
+  <section id="how" class="services how">
    <div class="container">
-
-    <div class="section-title">
-     <h2>How we Works
-                    <div></div>
-                    </h2>
-     <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+   <div class="section-title">
+    <h2>How we Works
+      <div></div>
+     </h2>
+    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+   </div>
+   </div>
+   
+   <div class="container hw-wrap" data-aos="fade-up">
+    <div class="row hw-left">
+     <div class="col-lg-3">
+      <h3> Requirement Gathering</h3>
+      <img src="assets/img/req-gathering.svg" alt="" class="img-fluid">
+     </div>
+     <div class="col-lg-4 h91">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
+     </div>
+     <img src="assets/img/line-1.svg" class="img-fluid line-br">
     </div>
 
 
-    <div class="container hw-wrap" data-aos="fade-up">
-     <div class="row">
-      <div class="col-lg-3 col-md-4 hw-left">
-       <h3> Requirement Gathering</h3>
-       <img src="assets/img/req-gathering.svg" alt="" class="img-fluid">
-      </div>
-      <div class="col-lg-6 col-md-4 h91">
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-      </div>
-      <div class="col-lg-3 col-md-4 hw-right">
-       <h3> Requirement Analysis</h3>
-       <img src="assets/img/req-analysis.svg" alt="bottech" class="img-fluid">
-      </div>
-      <img src="assets/img/line-1.png" class="img-fluid line-br">
+    <div class="row hw-right">
+     <div class="col-lg-5">
      </div>
-     <div class="row">
-      <div class="col-lg-3 col-md-4 hw-left">
-       <h3>UIUX Design</h3>
-       <img src="assets/img/uiux-design.svg" alt="bottech" class="img-fluid">
-      </div>
-      <div class="col-lg-6 col-md-4 h91">
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-      </div>
-      <div class="col-lg-3 col-md-4 hw-right">
-       <h3> Development</h3>
-       <img src="assets/img/devlopment.svg" alt="bottech" class="img-fluid">
-      </div>
-
-      <img src="assets/img/line-2.png" class="img-fluid line-br2">
-      <img src="assets/img/line-3.png" class="img-fluid line-br3">
+     <div class="col-lg-4 h91 order-lg-1 order-2">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
      </div>
-     <div class="row">
-      <div class="col-lg-3 col-md-4 hw-left">
-       <h3>Testing</h3>
-       <img src="assets/img/testing.svg" alt="bottech" class="img-fluid">
-      </div>
-      <div class="col-lg-6 col-md-4 h91">
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-      </div>
-      <div class="col-lg-3 col-md-4 hw-right">
-       <h3> Business Strategy</h3>
-       <img src="assets/img/business-strategy.svg" alt="bottech" class="img-fluid">
-      </div>
-      <img src="assets/img/line-5.png" class="img-fluid line-br5">
-      <img src="assets/img/line-3.png" class="img-fluid line-br3">
+     <div class="col-lg-3 order-lg-2 order-1">
+      <h3> Requirement Analysis</h3>
+      <img src="assets/img/req-analysis.svg" alt="bottech" class="img-fluid">
      </div>
-     <div class="row">
-      <div class="col-lg-3 col-md-4 hw-left">
-       <h3> Deployment</h3>
-       <img src="assets/img/deplyment.svg" alt="bottech" class="img-fluid">
-      </div>
-      <div class="col-lg-6 col-md-4 h91">
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
-      </div>
-      <div class="col-lg-3 col-md-4 hw-right">
-       <h3> Advertisement</h3>
-       <img src="assets/img/adverstiment.svg" alt="bottech" class="img-fluid">
-      </div>
-      <img src="assets/img/line-2.png" class="img-fluid line-br6">
-      <img src="assets/img/line-3.png" class="img-fluid line-br3">
-     </div>
+     <img src="assets/img/line-2.svg" class="img-fluid line-br2">
     </div>
 
+    <div class="row hw-left">
+     <div class="col-lg-3">
+      <h3>UIUX Design</h3>
+      <img src="assets/img/uiux-design.svg" alt="bottech" class="img-fluid">
+     </div>
+     <div class="col-lg-4 h91">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
+     </div>
+     <img src="assets/img/line-3.svg" class="img-fluid line-br3">
+    </div>
+
+    <div class="row  hw-right">
+     <div class="col-lg-5">
+     </div>
+     <div class="col-lg-4 h91 order-lg-1 order-2">
+
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
+     </div>
+     <div class="col-lg-3 order-lg-2 order-1">
+      <h3> Development</h3>
+      <img src="assets/img/devlopment.svg" alt="bottech" class="img-fluid">
+     </div>
+     <img src="assets/img/line-5.svg" class="img-fluid line-br5">
+    </div>
+
+    <div class="row hw-left">
+     <div class="col-lg-3">
+      <h3>Testing</h3>
+      <img src="assets/img/testing.svg" alt="bottech" class="img-fluid">
+     </div>
+     <div class="col-lg-4 h91">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
+     </div>
+     <img src="assets/img/line-3.svg" class="img-fluid line-br33">
+    </div>
+
+    <div class="row  hw-right">
+     <div class="col-lg-5">
+     </div>
+     <div class="col-lg-4 h91 order-lg-1 order-2">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
+     </div>
+     <div class="col-lg-3 order-lg-2 order-1">
+      <h3> Business Strategy</h3>
+      <img src="assets/img/business-strategy.svg" alt="bottech" class="img-fluid">
+     </div>
+     <img src="assets/img/line-5.svg" class="img-fluid line-br5 line-br55">
+    </div>
+
+    <div class="row hw-left">
+     <div class="col-lg-3">
+      <h3> Deployment</h3>
+      <img src="assets/img/deplyment.svg" alt="bottech" class="img-fluid">
+     </div>
+     <div class="col-lg-4 h91">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
+     </div>
+     <img src="assets/img/line-3.svg" class="img-fluid line-br33">
+    </div>
+
+    <div class="row hw-right">
+     <div class="col-lg-5">
+     </div>
+     <div class="col-lg-4 h91 order-lg-1 order-2">
+      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text.</p>
+     </div>
+     <div class="col-lg-3 order-lg-2 order-1">
+      <h3> Advertisement</h3>
+      <img src="assets/img/adverstiment.svg" alt="bottech" class="img-fluid">
+     </div>
+    </div>
 
    </div>
   </section>
-
-
-
 
   <section id="tech" class="features">
    <div class="container ">
 
     <div class="section-title">
-     <h2>Our Technologies <div></div></h2>
+     <h2>Our Technologies <div></div>
+     </h2>
      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </div>
 
@@ -237,49 +285,49 @@
      <div class="col-xl-12 d-flex align-items-stretch order-2 order-lg-1">
       <div class="content d-flex flex-column justify-content-center">
        <div class="row">
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/nodejs.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/react.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/docker.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/mongodb.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/swift.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/java.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/kotlin.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
          </div>
         </div>
-        <div class="col-md-4" data-aos="fade-up">
+        <div class="col-lg-4 col-md-6" data-aos="fade-up">
          <div class="icon-box">
           <i class="bx"><img src="assets/img/git.svg"></i>
           <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
@@ -294,13 +342,12 @@
    </div>
   </section>
 
-
-
   <section id="testimonials" class="testimonials section-bg">
    <div class="container">
 
     <div class="section-title">
-     <h2>Testimonials <div></div></h2>
+     <h2>Testimonials <div></div>
+     </h2>
      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </div>
 
@@ -371,13 +418,13 @@
    </div>
   </section>
 
-
   <section id="faq" class="faq section-bg">
    <div class="container">
 
     <div class="section-title">
 
-     <h2>Frequently Asked Questions <div></div></h2>
+     <h2>Frequently Asked Questions <div></div>
+     </h2>
      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </div>
 
@@ -438,7 +485,8 @@
    <div class="container">
 
     <div class="section-title">
-     <h2>Contact <div></div></h2>
+     <h2>Contact <div></div>
+     </h2>
      <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
     </div>
 
@@ -500,7 +548,7 @@
 
  </main>
 
- <footer id="footer">
+ <footer id="footer" class="footer">
 
   <div class="footer-newsletter" data-aos="fade-up">
    <div class="container">
@@ -518,10 +566,10 @@
   </div>
 
   <div class="footer-top">
-   <div class="container">
+   <div class="container-fluid">
     <div class="row">
 
-     <div class="col-lg-5 col-md-6 footer-contact" data-aos="fade-up">
+     <div class="col-lg-4 col-md-6 footer-contact" data-aos="fade-up">
       <h3>BOTTECH</h3>
       <p>
        Lorem Ipsum is simply dummy text of the printing and typesetting industry.
@@ -553,7 +601,7 @@
       </ul>
      </div>
 
-     <div class="col-lg-3 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300">
+     <div class="col-lg-4 col-md-6 footer-links" data-aos="fade-up" data-aos-delay="300">
       <h4>Our Social Networks</h4>
       <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. </p>
       <div class="social-links mt-3">
@@ -569,7 +617,7 @@
    </div>
   </div>
 
-  <div class="container py-4">
+  <div class="container-fluid py-4">
    <div class="copyright">
     &copy; Copyright <strong><span>BOTTECH</span></strong>. All Rights Reserved
    </div>
