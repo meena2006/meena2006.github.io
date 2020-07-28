@@ -1356,18 +1356,39 @@ font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
  .bg-2 h1, .bg-3 h1 { 
     font-size: 70px;
  }
+ .bg-2 .no-pd {
+    padding-top: 258px;
+}
 }
 @media screen and (max-width:1680px) {
+ .bg-1, .bg-2 { 
+    padding-top: 170px; 
+}
  .bg-2 .no-pd {
-    padding-top: 250px;
+    padding-top: 350px;
 }
  .bg-3 .no-pd {
-    padding-top: 216px;
+    padding-top: 270px;
 }
+ .bg-1 h1 {
+    font-size: 65px;
+ }
+ .bg-1 p, .bg-2 p, .bg-3 p {
+    font-size: 18px;
+    margin-top: 0;line-height: 30px;
+ }
+ .bg-2 h1, .bg-3 h1 { 
+    font-size: 70px;
+ }
 }
-@media screen and (max-width:1400px) {
+@media screen and (max-width:1600px) {
  .bg-2 .no-pd {
-    padding-top: 226px;
+    padding-top: 308px;
+}
+}
+@media screen and (max-width:1440px) {
+ .bg-2 .no-pd {
+    padding-top: 230px;
 }
 }
 
@@ -1392,6 +1413,15 @@ font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
  .line-br33 {
   top: 217px;
  }
+ .bg-2 h1, .bg-3 h1 {
+    font-size: 50px;
+}
+ .bg-2 .no-pd {
+    padding-top: 128px;
+}
+ .bg-3 .no-pd {
+    padding-top: 200px;
+}
 }
 @media screen and (max-width:992px) {
  .header .logo img {
@@ -1459,6 +1489,15 @@ font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
  .hero p {
   font-size: 20px;
  }
+ .bg-2 .no-pd {
+    padding-top: 86px;
+}
+ .bg-3 .no-pd {
+    padding-top: 60px;
+}
+ .bg-1, .bg-2 { 
+    padding-top: 120px; 
+}
 }
 @media screen and (max-width:767px) {
  .features .content .icon-box i img {
