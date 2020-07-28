@@ -1310,9 +1310,7 @@ font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
  .container.hw-wrap {
   max-width: 1366px;
  }
- .view-bg .container {
-  max-width: 1366px;
- }
+  
  .h91 {
   padding-top: 6rem;
  }
@@ -1344,6 +1342,35 @@ font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
   height: 54px;
  }
 }
+@media screen and (max-width:1920px) {
+.bg-1, .bg-2 { 
+    padding-top: 275px; 
+}
+ .bg-1 h1 {
+    font-size: 84px;
+ }
+ .bg-1 p, .bg-2 p, .bg-3 p {
+    font-size: 28px;
+    margin-top: 35px;line-height: 46px;
+ }
+ .bg-2 h1, .bg-3 h1 { 
+    font-size: 70px;
+ }
+}
+@media screen and (max-width:1680px) {
+ .bg-2 .no-pd {
+    padding-top: 250px;
+}
+ .bg-3 .no-pd {
+    padding-top: 216px;
+}
+}
+@media screen and (max-width:1400px) {
+ .bg-2 .no-pd {
+    padding-top: 226px;
+}
+}
+
 @media screen and (max-width:1200px) {
  .why-bx {
   font-size: 14px;
