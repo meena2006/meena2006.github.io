@@ -1303,6 +1303,8 @@ font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
  padding-top: 150px; 
 }
 
+ 
+
 @media (min-width:1380px) {
  .container {
   max-width: 85%;
@@ -1389,6 +1391,15 @@ font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
 @media screen and (max-width:1440px) {
  .bg-2 .no-pd {
     padding-top: 230px;
+}
+}
+@media screen and (max-width:1366px){
+ .bg-1 p, .bg-2 p, .bg-3 p {
+    font-size: 16px; 
+    line-height: 26px;
+}
+ .bg-2 h1, .bg-3 h1 {
+    font-size: 60px;
 }
 }
 
