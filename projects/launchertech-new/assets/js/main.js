@@ -130,3 +130,11 @@
 
 })(jQuery);
 
+$('.full-page-slider').fullpage({
+          navigation: true,
+          navigationPosition: 'right',
+          css3: true,
+          scrollingSpeed: 1000,
+          easingcss3: 'cubic-bezier(0.86, 0, 0.07, 1)',
+          responsiveWidth: 768
+        });

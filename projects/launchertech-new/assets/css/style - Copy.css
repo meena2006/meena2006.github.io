@@ -1240,49 +1240,27 @@ p {
  margin-bottom: 10px;
 }
 .view-bg {
-/*
  background: url(../img/new.svg) no-repeat;
- background-size: cover; */
- font-family: "Poppins", sans-serif; 
- 
-}
-.bg-1 {
- background: url(../img/right-bg.png) no-repeat;
- background-size: cover;
- background-position: right;
- height: 100vh;
-}
-.bg-2 {
- background: url(../img/left-bg.png) no-repeat;
- background-size: cover;
- background-position: left;
- height: 100vh; 
+ background-size: cover; font-family: "Poppins", sans-serif; 
 }
 .bg-1, .bg-2 {
-  padding: 0; margin-bottom: 20px; 
+  padding: 0;
+ padding-top: 150px;
+ padding-bottom: 200px; 
 }
  
 .bg-1 .row {
  margin: 0;
 }
-.bg-top h1  {
+.bg-1 h1 {
   
 font-size:  65px;
 letter-spacing: 3.75px; font-weight: 900;  margin-left: 30px;
 color: #222222;   padding-left: 50px;
 }
-.bg-content h1 {
- font-size:  65px;
-letter-spacing: 3.75px; font-weight: 900; 
-color: #222222;   
-}
-.bg-top p {
+.bg-1 p {
  margin-left: 30px;  padding-left: 50px;
 }
-.bg-content p {
- margin-left: 0;  padding-left: 0;
-}
-.tx-img { }
 .bk-arrow {
  margin-bottom: 50px;max-height: 30px;  
 }
@@ -1291,8 +1269,25 @@ color: #222222;
 width: 325px;
  height: 3px;margin-top: 50px;
 }
+.no-pd { padding: 0;}
+.bg-2 .no-pd {
+ padding:146px 0 100px 100px;
+}
+.bg-2 { padding-top: 300px;}
+.bg-2 h1, .bg-3 h1 {
+ text-align: left;
+font-size:  60px;  font-weight: 900;   color: #000; margin-bottom: 50px;
+}
+.bg-3 {
+ margin-top: -100px;padding-bottom: 700px;
+}
+.bg-3 .no-pd {
+ padding-top: 150px; 
+}
+.view-bg1 {
   
-.bg-content { padding-top: 280px;}
+}
+
  
 
 @media (min-width:1380px) {
@@ -1333,10 +1328,65 @@ width: 325px;
  .features .content .icon-box i img {
   height: 54px;
  }
- .bg-content { padding-top: 450px;}
- 
 }
- 
+@media screen and (max-width:1920px) {
+.bg-1, .bg-2 { 
+    padding-top: 275px; 
+}
+ .bg-1 h1 {
+    font-size: 84px;
+ }
+ .bg-1 p, .bg-2 p, .bg-3 p {
+    font-size: 28px;
+    margin-top: 35px;line-height: 46px;
+ }
+ .bg-2 h1, .bg-3 h1 { 
+    font-size: 70px;
+ }
+ .bg-2 .no-pd {
+    padding-top: 258px;
+}
+}
+@media screen and (max-width:1680px) {
+ .bg-1, .bg-2 { 
+    padding-top: 170px; 
+}
+ .bg-2 .no-pd {
+    padding-top: 350px;
+}
+ .bg-3 .no-pd {
+    padding-top: 270px;
+}
+ .bg-1 h1 {
+    font-size: 65px;
+ }
+ .bg-1 p, .bg-2 p, .bg-3 p {
+    font-size: 18px;
+    margin-top: 0;line-height: 30px;
+ }
+ .bg-2 h1, .bg-3 h1 { 
+    font-size: 70px;
+ }
+}
+@media screen and (max-width:1600px) {
+ .bg-2 .no-pd {
+    padding-top: 308px;
+}
+}
+@media screen and (max-width:1440px) {
+ .bg-2 .no-pd {
+    padding-top: 230px;
+}
+}
+@media screen and (max-width:1366px){
+ .bg-1 p, .bg-2 p, .bg-3 p {
+    font-size: 16px; 
+    line-height: 26px;
+}
+ .bg-2 h1, .bg-3 h1 {
+    font-size: 60px;
+}
+}
 
 @media screen and (max-width:1200px) {
  .why-bx {
@@ -1359,12 +1409,15 @@ width: 325px;
  .line-br33 {
   top: 217px;
  }
- .bg-content h1 {
- font-size:  35px;   
+ .bg-2 h1, .bg-3 h1 {
+    font-size: 50px;
 }
- .bg-2 .bg-content { padding-top: 250px;}
- .bg-content { padding-top: 180px;}
- 
+ .bg-2 .no-pd {
+    padding-top: 128px;
+}
+ .bg-3 .no-pd {
+    padding-top: 200px;
+}
 }
 @media screen and (max-width:992px) {
  .header .logo img {
@@ -1400,12 +1453,18 @@ width: 325px;
  .line-br6 {
   display: none;
  }
-  
+ .bg-2 h1, .bg-3 h1 {
+  font-size: 40px;
+ }
+ .bg-2 .no-pd {
+    padding: 146px 0 100px 16px;
+}
+ .bg-1 h1 {
+  font-size: 45px;
+ }
  .blk-line {
   width: 215px;
  }
-  .bg-2 .bg-content { padding-top: 120px;}
- .bg-content { padding-top: 100px;}
 }
 @media (max-width: 768px) {
  .footer .copyright,
@@ -1426,7 +1485,15 @@ width: 325px;
  .hero p {
   font-size: 20px;
  }
-
+ .bg-2 .no-pd {
+    padding-top: 86px;
+}
+ .bg-3 .no-pd {
+    padding-top: 60px;
+}
+ .bg-1, .bg-2 { 
+    padding-top: 120px; 
+}
 }
 @media screen and (max-width:767px) {
  .features .content .icon-box i img {
@@ -1469,17 +1536,27 @@ width: 325px;
  .hero-app-0 img {
   max-width: 20%;
  }
- .fp-tableCell, .fp-section.fp-table, .fp-slide.fp-table { height: inherit !important; display: block;}
- .bg-1, .bg-2 { background: none; height: auto; height: inherit;}
- .blk-line { margin-bottom: 20px; margin-top: 10px;}
- .bg-2 .bg-content, .bg-content {
-    padding-top: 20px;
-}
- .bg-top { padding-top: 20px;}
- .bg-top h1 {
-    font-size: 28px; letter-spacing: 1.5px; padding-left: 0;margin-left: 0;
+ .view-bg {
+  background: none; padding: 15px;
  }
- .bg-top p { padding-left: 0;margin-left: 0;}
+ .bg-1, .bg-2, .bg-3, .bg-2 .no-pd, .bg-3 .no-pd {
+  padding: 5px;  
+ }
+ .bg-3 { margin-top: 0;}
+ .bg-1 h1, .bg-1 p { padding-left: 20px;}
+ .bk-arrow {
+    margin-bottom: 24px;
+ }
+ .bg-1 h1, .bg-2 h1, .bg-3 h1 {   
+    font-size: 22px;
+}
+ .bg-2 h1, .bg-3 h1 {
+   margin-bottom: 20px;
+}
+ .bg-2 p, .bg-3 p {
+    font-size: 14px;
+}
+ .blk-line { margin-bottom: 20px; margin-top: 10px;}
 }
 @media screen and (max-width:400px) {
  .back-to-top {
