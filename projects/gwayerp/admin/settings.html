@@ -1,0 +1,188 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+ <meta charset="utf-8">
+ <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+ <!-- Bootstrap CSS -->
+ <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+ <link rel="stylesheet" href="assets/css/fontawesome-all.css">
+ <link rel="stylesheet" href="assets/css/style.css">
+ <title>Admin</title>
+</head>
+
+<body>
+ <div class="dashboard-main-wrapper">
+  <div class="dashboard-header">
+   <nav class="navbar navbar-expand-lg bg-white fixed-top">
+    <a id="sidebarToggle" href="#" class="mn-icon"><i class="fas fa-bars"></i></a> 
+    <a class="navbar-brand"><img  src="assets/images/logo.png" alt="logo"> <span>Admin</span></a>
+    <ul class="navbar-nav ml-auto navbar-right-top mr-3">
+     <li class="nav-item">
+      <a href="login.html"><i class="fas fa-power-off mr-2"></i>Logout</a>
+     </li>
+    </ul>
+   </nav>
+  </div>
+  <div class="nav-left-sidebar sidebar-dark">
+   <div class="menu-list">
+    <nav class="navbar navbar-expand-lg navbar-light">
+     <a class="d-xl-none d-lg-none" href="#">Dashboard</a>
+     <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav flex-column"> 
+       <li class="nav-item">
+        <a class="nav-link" href="dashboard.html"><i class="fas fa-fw fa-chart-pie"></i>Dashboard </a>
+       </li>
+       <li class="nav-item"> <a class="nav-link" href="customers.html"><i class="fa fa-users" aria-hidden="true"></i>Customers</a> </li>
+       <li class="nav-item">
+        <a class="nav-link" href="#" data-toggle="collapse" aria-expanded="false" data-target="#submenu-10" aria-controls="submenu-10"><i class="fas fa-f fa-folder"></i>Orders</a>
+        <div id="submenu-10" class="collapse submenu" style="">
+         <ul class="nav flex-column">
+          <li class="nav-item">
+           <a class="nav-link" href="paid.html">Paid</a>
+          </li>
+          <li class="nav-item">
+           <a class="nav-link" href="#">Unpaid</a>
+          </li>
+         </ul>
+        </div>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="mail.html"><i class="fas fa-fw fa-inbox"></i>Mail<span class="badge badge-success">6</span></a>
+       </li>
+       <li class="nav-item">
+        <a class="nav-link" href="invoice.html"><i class="fas fa-f fa-folder"></i>Invoice</a>
+       </li>
+
+       <li class="nav-item">
+        <a class="nav-link active" href="settings.html"><i class="fa fa-cog" aria-hidden="true"></i>Settings</a>
+       </li>
+      </ul>
+     </div>
+    </nav>
+   </div>
+  </div>
+  <div class="dashboard-wrapper">
+   <div class="container-fluid  dashboard-content">
+    <div class="row">
+     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+      <div class="page-header">
+       <h3 class="mb-2">Settings </h3>
+      </div>
+     </div>
+    </div>
+    <div class="row">
+     <div class="col-xl-12 col-lg-12 col-md-12 col-sm-12 col-12">
+      <div class="card">
+       <div class="card-body">
+        <form>
+         <div class="form-row form-group">
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb-2">
+           <label>Input Text</label>
+           <input type="text" placeholder="Input Text" class="form-control">
+          </div>
+          <div class="col-xl-6 col-lg-6 col-md-12 col-sm-12 col-12 mb-2">
+           <label>Email address</label>
+           <input type="email" placeholder="name@example.com" class="form-control">
+          </div>
+         </div>
+         <div class="form-group">
+          <label>Number Input</label>
+          <input type="number" class="form-control" placeholder="Numbers">
+         </div>
+         <div class="form-group">
+          <label>Password</label>
+          <input type="password" placeholder="Password" class="form-control">
+         </div>
+         <div class="form-group">
+           <label>File Input</label>
+          <div class="custom-file">
+           <input type="file" class="custom-file-input" id="customFile">
+           <label class="custom-file-label" for="customFile">Choose File</label>
+          </div>
+         </div>
+         <div class="form-group">
+          <label>Example Select</label>
+          <select class="form-control">
+           <option>Choose Example</option>
+          </select>
+         </div>
+         <label class="custom-control custom-checkbox">
+          <input type="checkbox" checked="" class="custom-control-input"><span class="custom-control-label">Default Checkbox</span>
+         </label>
+         <label class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" checked="" class="custom-control-input"><span class="custom-control-label">Option 1</span>
+         </label>
+         <label class="custom-control custom-checkbox custom-control-inline">
+          <input type="checkbox" class="custom-control-input"><span class="custom-control-label">Option 2</span>
+         </label>
+         <label class="custom-control custom-radio">
+          <input type="radio" name="radio-stacked" checked="" class="custom-control-input"><span class="custom-control-label">Default Radio</span>
+         </label>
+         <label class="custom-control custom-radio custom-control-inline">
+          <input type="radio" name="radio-inline" checked="" class="custom-control-input"><span class="custom-control-label">Option 1</span>
+         </label>
+         <label class="custom-control custom-radio custom-control-inline">
+          <input type="radio" name="radio-inline" class="custom-control-input"><span class="custom-control-label">Option 2</span>
+         </label>
+         <h5>Default</h5>
+         <div class="input-group mb-3">
+          <div class="input-group-prepend"><span class="input-group-text">@</span></div>
+          <input type="text" placeholder="Username" class="form-control">
+         </div>
+         <div class="form-group">
+          <label class="col-form-label">Button Addons</label>
+          <div class="input-group mb-3">
+           <input type="text" class="form-control">
+           <div class="input-group-append">
+            <button type="button" class="btn btn-primary">Go!</button>
+           </div>
+          </div>
+         </div>
+         <div class="form-group">
+          <div class="switch-button">
+           <input type="checkbox" checked="" name="switch14" id="switch14"><span>
+          <label for="switch14"></label></span>
+          </div>
+         </div>
+         <div class="form-group">
+          <label>Example textarea</label>
+          <textarea class="form-control" rows="3"></textarea>
+         </div>
+         <div class="form-row form-group">
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-2">
+           <label>City</label>
+           <input type="text" class="form-control" placeholder="City">
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-2">
+           <label>State</label>
+           <input type="text" class="form-control" placeholder="State">
+          </div>
+          <div class="col-xl-4 col-lg-4 col-md-12 col-sm-12 col-12 mb-2">
+           <label>Zip</label>
+           <input type="text" class="form-control" placeholder="Zip">
+          </div>
+         </div>
+         <div class="form-group">
+          <button type="submit" class="btn btn-space btn-primary">Submit</button>
+          <button class="btn btn-space btn-secondary">Cancel</button>
+         </div>
+        </form>
+       </div>
+      </div>
+     </div>
+    </div>
+
+   </div>
+
+  </div>
+ </div>
+ <div class="footer">
+ </div>
+ <script src="assets/js/jquery-3.3.1.min.js"></script>
+ <script src="assets/js/bootstrap.bundle.js"></script>
+ <script src="assets/js/jquery.slimscroll.js"></script>
+ <script src="assets/js/main-js.js"></script>
+</body>
+
+</html>

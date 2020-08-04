@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="153" height="187" viewBox="0 0 153 187">
+  <g id="circle" transform="translate(1)">
+    <g id="Mask-_x2B_-Mask-Mask" transform="translate(14)">
+      <g id="Mask_1_">
+        <path id="Path_1" data-name="Path 1" d="M138,141.2a80.235,80.235,0,0,1-11,.8A78.006,78.006,0,0,1,82.4,0H138V129.5" fill="#65469a" opacity="0.2"/>
+      </g>
+      <g id="Mask_2_">
+        <path id="Path_2" data-name="Path 2" d="M138,141.2V187H-15a87.549,87.549,0,0,1,73.4-85.9A82.144,82.144,0,0,1,72.5,100,87.143,87.143,0,0,1,138,129.5" fill="#65469a" opacity="0.2"/>
+      </g>
+    </g>
+  </g>
+</svg>
