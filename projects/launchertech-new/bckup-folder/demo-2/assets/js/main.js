@@ -130,28 +130,6 @@
 
 })(jQuery);
 
-$('#branding').hover(function(){
-  $('.why-icons').hide();
-  $('#branding-descpt').show();
- });
-$('#digital').hover(function(){
-  $('.why-icons').hide();
-  $('#digital-descpt').show();
- });
-$('#business').hover(function(){
-  $('.why-icons').hide();
-  $('#business-descpt').show();
- });
-$('#seo').hover(function(){
-  $('.why-icons').hide();
-  $('#seo-descpt').show();
- });
-
-$('.why-close').click(function(){
- $('.why-description').hide();
- $('.why-icons').show();
-});
-
 $('.full-page-slider').fullpage({
           navigation: true,
           navigationPosition: 'right',
@@ -160,4 +138,3 @@ $('.full-page-slider').fullpage({
           easingcss3: 'cubic-bezier(0.86, 0, 0.07, 1)',
           responsiveWidth: 768
         });
-
