@@ -131,9 +131,10 @@
 })(jQuery);
 
 
-function checkWidth() {
-   if ($(window).width() < 992) {       
-    $('#branding').hover(function(){
+function mobile_why() {
+ $windowWidth = $(window).width();
+   if($windowWidth <= 992) {
+     $('#branding').hover(function(){
   $('.mbl-why').hide();
   $('#branding-descpt').show();
  });
@@ -153,10 +154,11 @@ $('#seo').hover(function(){
 $('.why-close').click(function(){
  $('.why-description').hide();
  $('.mbl-why').show();
-});   
-    
-   } else {
-       $('#branding').hover(function(){
+}); 
+        }
+
+   else {
+   $('#branding').hover(function(){
   $('.whyim, #digital-descpt, #business-descpt, #seo-descpt').hide();
   $('#branding-descpt').show();
  });
@@ -177,25 +179,15 @@ $('.why-close').click(function(){
  $('.why-description').hide();
  $('.whyim, #seo, #branding, #digital, #business').show();
 });
-
    }
-}
+   }
 
-$(window).resize(checkWidth);
-$(window).load(checkWidth);
-$(window).ready(checkWidth);
+   $(window).resize(function() {
+ mobile_why();
+   });
+   $(document).ready(function(){
+ mobile_why();
+   });
 
-
-
-
-
-
-$('.full-page-slider').fullpage({
-          navigation: true,
-          navigationPosition: 'right',
-          css3: true,
-          scrollingSpeed: 1000,
-          easingcss3: 'cubic-bezier(0.86, 0, 0.07, 1)',
-          responsiveWidth: 768
-        });
+ 
 
