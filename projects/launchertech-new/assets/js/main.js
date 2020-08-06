@@ -130,27 +130,65 @@
 
 })(jQuery);
 
-$('#branding').hover(function(){
-  $('.why-icons').hide();
+
+function checkWidth() {
+   if ($(window).width() < 992) {       
+    $('#branding').hover(function(){
+  $('.mbl-why').hide();
   $('#branding-descpt').show();
  });
 $('#digital').hover(function(){
-  $('.why-icons').hide();
+  $('.mbl-why').hide();
   $('#digital-descpt').show();
  });
 $('#business').hover(function(){
-  $('.why-icons').hide();
+  $('.mbl-why').hide();
   $('#business-descpt').show();
  });
 $('#seo').hover(function(){
-  $('.why-icons').hide();
+  $('.mbl-why').hide();
   $('#seo-descpt').show();
  });
 
 $('.why-close').click(function(){
  $('.why-description').hide();
- $('.why-icons').show();
+ $('.mbl-why').show();
+});   
+    
+   } else {
+       $('#branding').hover(function(){
+  $('.whyim, #digital-descpt, #business-descpt, #seo-descpt').hide();
+  $('#branding-descpt').show();
+ });
+$('#digital').hover(function(){
+  $('.whyim, #branding-descpt, #business-descpt, #seo-descpt').hide();
+  $('#digital-descpt').show();
+ });
+$('#business').hover(function(){
+  $('.whyim, #branding-descpt, #digital-descpt, #seo-descpt').hide();
+  $('#business-descpt').show();
+ });
+$('#seo').hover(function(){
+  $('.whyim, #branding-descpt, #digital-descpt, #business-descpt').hide();
+  $('#seo-descpt').show();
+ });
+
+$('.why-close').click(function(){
+ $('.why-description').hide();
+ $('.whyim, #seo, #branding, #digital, #business').show();
 });
+
+   }
+}
+
+$(window).resize(checkWidth);
+$(window).load(checkWidth);
+$(window).ready(checkWidth);
+
+
+
+
+
 
 $('.full-page-slider').fullpage({
           navigation: true,
