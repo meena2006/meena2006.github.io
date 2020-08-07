@@ -131,54 +131,36 @@
 })(jQuery);
 
 
+
+ $(function () {
+  $('[data-toggle="tooltip"]').tooltip({html:true})
+});
+
+ 
+
+
 function mobile_why() {
  $windowWidth = $(window).width();
-   if($windowWidth <= 992) {
-     $('#branding').hover(function(){
-  $('.mbl-why').hide();
-  $('#branding-descpt').show();
- });
-$('#digital').hover(function(){
-  $('.mbl-why').hide();
-  $('#digital-descpt').show();
- });
-$('#business').hover(function(){
-  $('.mbl-why').hide();
-  $('#business-descpt').show();
- });
-$('#seo').hover(function(){
-  $('.mbl-why').hide();
-  $('#seo-descpt').show();
- });
-
-$('.why-close').click(function(){
- $('.why-description').hide();
- $('.mbl-why').show();
-}); 
+   if($windowWidth <= 992) {      
+            $(".why-bx").hover(function () {
+                var index = $(this).attr("id").replace("why-bx", "");
+                $(".why-des" + index).show();
+             $('.mbl-why').hide();
+            }); 
+            
         }
 
    else {
-   $('#branding').hover(function(){
-  $('.whyim, #digital-descpt, #business-descpt, #seo-descpt').hide();
-  $('#branding-descpt').show();
- });
-$('#digital').hover(function(){
-  $('.whyim, #branding-descpt, #business-descpt, #seo-descpt').hide();
-  $('#digital-descpt').show();
- });
-$('#business').hover(function(){
-  $('.whyim, #branding-descpt, #digital-descpt, #seo-descpt').hide();
-  $('#business-descpt').show();
- });
-$('#seo').hover(function(){
-  $('.whyim, #branding-descpt, #digital-descpt, #business-descpt').hide();
-  $('#seo-descpt').show();
- });
-
-$('.why-close').click(function(){
- $('.why-description').hide();
- $('.whyim, #seo, #branding, #digital, #business').show();
-});
+            $(".why-bx").bind("mouseover", function () {
+                var index = $(this).attr("id").replace("why-bx", "");
+                $(".why-des" + index).show();
+             $('.whyim').hide();
+            });
+            $(".why-bx").bind("mouseout", function () {
+                var index = $(this).attr("id").replace("why-bx", "");
+                $(".why-des" + index).hide();
+             $('.whyim').show();
+            });
    }
    }
 
@@ -188,6 +170,16 @@ $('.why-close').click(function(){
    $(document).ready(function(){
  mobile_why();
    });
+
+      $('.why-close, .bx-x').click(function(){
+           $(".why-description").hide();
+           $('.mbl-why').show();
+          });
+
+
+$(function () {
+  $('[data-toggle="popover"]').popover()
+});
 
  
 
