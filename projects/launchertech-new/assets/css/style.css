@@ -1547,7 +1547,8 @@ section.pro-screens {
 }
 @media screen and (max-width:991px) {
  .prowrap h4 {
-  font-size: 28px;
+  font-size: 26px;
+  text-align: center;
  } 
   
  .blk-line {
@@ -1649,7 +1650,13 @@ section.pro-screens {
  }
   
  .hero h1 {
-  font-size: 24px;
+  font-size: 24px;line-height: 46px;
+ }
+ .hero .quote-icon-left, .hero .quote-icon-right { 
+    font-size: 14px;
+}
+ .hero h1 br {
+  display: none;
  }
  .hero-app-0 {
   text-align: right;
