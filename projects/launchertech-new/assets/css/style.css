@@ -1233,6 +1233,8 @@ font-size: 18px;
  margin-bottom: 10px;
 }
  
+
+
 .bk-arrow {
      margin-bottom: 50px;
     height: 54px;
@@ -1632,6 +1634,7 @@ section.pro-screens {
 
 }
 @media screen and (max-width:767px) {
+ .prowrap .icon-box p { text-align: center; margin-bottom: 15px;}
  .features .content .icon-box i img {
   height: 54px;
  }

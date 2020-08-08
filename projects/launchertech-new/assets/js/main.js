@@ -142,12 +142,13 @@
 function mobile_why() {
  $windowWidth = $(window).width();
    if($windowWidth <= 992) {      
-            $(".why-bx").hover(function () {
-             $(".why-ht").animate({ scrollTop: 0 }, 'fast');
-                var index = $(this).attr("id").replace("why-bx", "");
-             $(".why-des" + index).animate({ scrollTop: 0 }, 'fast');
+            $(".why-bx").hover(function () { 
+                var index = $(this).attr("id").replace("why-bx", ""); 
                 $(".why-des" + index).show();
              $('.mbl-why').hide();
+             $('html, body').animate({
+        scrollTop: $(".why-des" + index).offset().top - 100
+    }, 2000);
             }); 
             
         }
@@ -173,8 +174,7 @@ function mobile_why() {
  mobile_why();
    });
 
-      $('.why-close, .bx-x').click(function(){
-       $("#fr-focus").animate({ scrollTop: 0 }, 'fast');
+      $('.why-close, .bx-x').click(function(){   
            $(".why-description").hide();
            $('.mbl-why').show();
           });
