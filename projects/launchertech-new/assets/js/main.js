@@ -148,7 +148,7 @@ function mobile_why() {
              $('.mbl-why').hide();
              $('html, body').animate({
         scrollTop: $(".why-des" + index).offset().top - 100
-    }, 10);
+    }, 0);
             }); 
             
         }
