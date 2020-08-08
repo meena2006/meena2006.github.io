@@ -1653,9 +1653,10 @@ section.pro-screens {
  }
  .hero-app-0 {
   text-align: right;
+  width: 22px;
  }
  .hero-app-0 img {
-  max-width: 20%;
+  max-width: 100%;
  } 
   .pro-vhead .pro-top-right {
     max-width: 268px;
