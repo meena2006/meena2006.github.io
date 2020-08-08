@@ -143,7 +143,9 @@ function mobile_why() {
  $windowWidth = $(window).width();
    if($windowWidth <= 992) {      
             $(".why-bx").hover(function () {
+             $(".why-ht").animate({ scrollTop: 0 }, 'fast');
                 var index = $(this).attr("id").replace("why-bx", "");
+             $(".why-des" + index).animate({ scrollTop: 0 }, 'fast');
                 $(".why-des" + index).show();
              $('.mbl-why').hide();
             }); 
@@ -152,7 +154,7 @@ function mobile_why() {
 
    else {
             $(".why-bx").bind("mouseover", function () {
-                var index = $(this).attr("id").replace("why-bx", "");
+                var index = $(this).attr("id").replace("why-bx", ""); 
                 $(".why-des" + index).show();
              $('.whyim').hide();
             });
@@ -172,6 +174,7 @@ function mobile_why() {
    });
 
       $('.why-close, .bx-x').click(function(){
+       $("#fr-focus").animate({ scrollTop: 0 }, 'fast');
            $(".why-description").hide();
            $('.mbl-why').show();
           });
