@@ -1609,6 +1609,9 @@ section.pro-screens {
   margin-top: 0!important;
  }
  .why-close { display: block;}
+ [data-aos-delay] {
+    transition-delay: 0s !important;
+  }
 }
 
 @media screen and (max-width:800px) {
@@ -1706,6 +1709,7 @@ section.pro-screens {
  .section-title { 
     padding-bottom: 10px;
 }
+ 
 }
 @media screen and (max-width:480px) {
  .back-to-top {
