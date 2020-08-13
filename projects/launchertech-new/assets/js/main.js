@@ -154,16 +154,12 @@ function mobile_why() {
         }
 
    else {
-            $(".why-bx").bind("mouseover", function () {
+            $(".why-bx").click(function () {
                 var index = $(this).attr("id").replace("why-bx", ""); 
                 $(".why-des" + index).show();
              $('.whyim').hide();
             });
-            $(".why-bx").bind("mouseout", function () {
-                var index = $(this).attr("id").replace("why-bx", "");
-                $(".why-des" + index).hide();
-             $('.whyim').show();
-            });
+             
    }
    }
 
@@ -177,6 +173,7 @@ function mobile_why() {
       $('.why-close, .bx-x').click(function(){   
            $(".why-description").hide();
            $('.mbl-why').show();
+       $('.whyim').show();
           });
 
 
