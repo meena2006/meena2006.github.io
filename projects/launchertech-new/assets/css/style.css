@@ -993,7 +993,7 @@ box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
 }
 .footer .footer-newsletter form input[type="email"] {
  border: 0;
- padding: 4px 8px;
+ padding: 4px 8px;border-radius: 14px 0 0 14px;
  width: calc(100% - 100px);
  outline: none;
  background: none;
@@ -1347,7 +1347,7 @@ width: 180px;
      padding: 20px;
     padding-right: 42px;
  position: relative;
- margin: 16px 96px;
+ margin: 16px 80px;
  min-height: 308px;
 }
 .why-description h3 {
@@ -1357,7 +1357,7 @@ width: 180px;
     color: #47536e;
 }
 .why-description p {
- font-size: 15px;
+ font-size: 14px;
 }
 .wd-left {
  padding-right: 30px;
@@ -1440,6 +1440,9 @@ section.pro-screens {
   display: none;
 }
  
+.why-description.active {
+  display: block;
+}
 
 @media (min-width:1380px) {
  .container {
@@ -1477,7 +1480,7 @@ section.pro-screens {
     max-width: 432px;
 }
  .features .content .icon-box { 
-  min-height: 224px;
+  min-height: 245px;
  }
 }
  
