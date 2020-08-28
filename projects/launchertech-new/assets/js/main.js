@@ -143,7 +143,7 @@ function mobile_why() {
     if ($windowWidth <= 992) {
         $(".why-bx").click(function() {
             var index = $(this).attr("id").replace("why-bx", "");
-            $(".why-des" + index).show();
+            $(".why-des" + index).addClass('active').siblings().removeClass('active');
             $('.mbl-why').hide();
             $('html, body').animate({
                 scrollTop: $(".why-des" + index).offset().top - 100
