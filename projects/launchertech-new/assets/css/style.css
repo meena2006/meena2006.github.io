@@ -1443,6 +1443,10 @@ section.pro-screens {
 .why-description.active {
   display: block;
 }
+.pro-lnch {
+  max-height: 700px;
+  margin-top: -80px;
+}
 
 @media (min-width:1380px) {
  .container {
@@ -1466,7 +1470,7 @@ section.pro-screens {
   width: 900px;
  }
  .pro-lnch {
-  height: 690px;
+  max-height: 820px;
  }
  .pro-left, .pro-right {
   width: 800px;
@@ -1800,3 +1804,4 @@ section.pricing {
     opacity: 1;
   }
 }
+
