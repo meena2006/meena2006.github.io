@@ -95,3 +95,8 @@ to{opacity:1}
 body{padding-top:72px}
 .nav-left-sidebar{top:70px}
 }
+@media (min-height: 1200px) and (min-width: 1920px) {
+  .footer { 
+    min-width: calc(100vw - 155px);
+  }
+}
