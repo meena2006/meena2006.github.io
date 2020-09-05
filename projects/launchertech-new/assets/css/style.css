@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;0,700;0,800;1,400&family=Poppins:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,500&family=Raleway:ital,wght@0,400;0,500;0,600;0,700;0,800;0,900;1,400;1,500&display=swap');
+
 @font-face {
  font-family: 'Beway';
  src: url('../fonts/Beway-Regular.eot?#iefix') format('embedded-opentype'), url('../fonts/Beway-Regular.otf') format('opentype'), url('../fonts/Beway-Regular.woff') format('woff'), url('../fonts/Beway-Regular.ttf') format('truetype'), url('../fonts/Beway-Regular.svg#Beway-Regular') format('svg');
@@ -339,7 +341,7 @@ position: fixed;
 .hero h1 {
  margin: 0 0 10px 0;
  font-family: "Poppins", sans-serif;
- font-weight: 900;
+ font-weight: 700;
  font-size: 54px;
  line-height: 78px;
  margin-bottom: 50px;
@@ -580,7 +582,7 @@ section {
 }
 .section-title h2 {
  font-size: 32px;
- font-weight: 900;
+ font-weight: 700;
  margin-bottom: 20px;
  padding-bottom: 0;
  color: #47536e;
@@ -607,10 +609,9 @@ margin: 25px 0;
     /* border: 1px solid #f2f2f3; */
     box-shadow: inset 8px 8px 20px #c1c1c1, inset -8px -8px 20px #ffffff;
  box-shadow: inset 4px 4px 10px #b8b9be, inset -5px -5px 14px #fff;
-    padding: 10px 0;
-    background: #fbfbfb;
-    padding-right: 8px;
-    min-height: 322px;
+    padding: 10px;
+    background: #fbfbfb; 
+    min-height: 335px;
     border-radius: 6px;
     transition: all .4s ease-in-out;
  cursor: default;
@@ -676,6 +677,7 @@ margin: 25px 0;
   max-width: 100%;
  }
 }
+.testimonials { display: none;}
 .testimonials .testimonial-wrap {
  padding-left: 50px;
 }
@@ -954,7 +956,7 @@ box-shadow: inset 2px 2px 5px #b8b9be, inset -3px -3px 7px #fff;
 .services .icon-box h4 {
  color: #47536e;
  font-size: 35px;
- font-weight: 900;
+ font-weight: 700;
 }
 .footer {
  background: #fff;
@@ -1110,7 +1112,7 @@ font-size: 18px;
  color: #47536e;
 }
 .footer-contact h3 {
- font-weight: 900;
+ font-weight: 700;
  margin-bottom: 20px;
 }
  
@@ -1124,8 +1126,8 @@ font-size: 18px;
  border-radius: 22px;
     width: 275px;
     padding: 15px 10px;
-    font-size: 18px;
-    font-weight: 900;
+    font-size: 17px;
+    font-weight: 700;
     background: #fff;
     color: #000;
     text-align: center;
@@ -1192,13 +1194,13 @@ font-size: 18px;
  line-height: 68px;
 }
 .prowrap h4 a {
- color: #bbbaba;
+  color: #5076ff;
  transition: all 300ms linear;
 }
 .prowrap h4 a:hover,
 .prowrap h4 a:focus,
 .prowrap h4 a:active {
- color: #000;
+ color: #5a7eff;
  font-weight: 600;
  font-style: normal;
 }
@@ -1225,6 +1227,7 @@ font-size: 18px;
     border-radius: 22px;
     padding: 14px;
     background: #fff; 
+    opacity: 0.4;
 }
 
 .bk-arrow:hover {
@@ -1410,7 +1413,7 @@ section.pro-vhead {
 .pro-vhead h1 {
  font-size: 65px;
     letter-spacing: 3.75px;
-    font-weight: 900; 
+    font-weight: 700; 
     color: #222222;  margin-bottom: 30px;
 }
 section.pro-screens {
@@ -1424,7 +1427,7 @@ section.pro-screens {
 .pro-screens h1 {
     font-size: 65px;
     letter-spacing: 3.75px;
-    font-weight: 900;
+    font-weight: 700;
     color: #222222;margin-bottom: 30px;
 }
  
@@ -1484,7 +1487,7 @@ section.pro-screens {
     max-width: 432px;
 }
  .features .content .icon-box { 
-  min-height: 245px;
+  min-height: 270px;
  }
 }
  
