@@ -94,7 +94,7 @@
         }, 1500, 'easeInOutExpo');
         return false;
     });
-
+ 
 
     $(".products-carousel").owlCarousel({
         autoplay: true,
@@ -176,4 +176,32 @@ $('.why-close, .bx-x').click(function() {
 
 $(function() {
     $('[data-toggle="popover"]').popover()
+});
+
+$( document ).ready(function() {
+    
+  $(".owl-vertical-basic").owlCarousel({
+    items: 1,
+    loop: false,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    rewind: true,
+    autoplay: true,
+    margin: 0,
+    nav: false,
+    dots: true
+  });
+  $(".owl-vertical-ultimate").owlCarousel({
+    items: 1,
+    loop: false,
+    mouseDrag: false,
+    touchDrag: false,
+    pullDrag: false,
+    rewind: true,
+    autoplay: true,
+    margin: 0,
+    nav: false,
+    dots: true
+  });
 });

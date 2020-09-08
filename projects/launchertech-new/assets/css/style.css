@@ -1770,8 +1770,8 @@ section.pricing {
 }
 .pricing ul { padding-left: 5px;}
 .pricing ul li {
-  margin-bottom: 1rem;
-  list-style: none; padding-left:15px;font-weight: 600;
+  margin-bottom: 1rem; font-size: 14px;
+  list-style: none; padding-left:0px;font-weight: 600;
 }
 .pricing ul li i { padding-right: 15px; font-size: 25px; float: left; }
 
@@ -1786,7 +1786,7 @@ section.pricing {
   font-weight: bold;
   padding: 1rem;
   opacity: 0.7;
-  transition: all 0.2s;
+  transition: all 0.2s;    margin-top: 10px;
 }
 .pricing-des p {
   color:#fff; font-size: 16px;
@@ -1807,4 +1807,5 @@ section.pricing {
     opacity: 1;
   }
 }
+  
 
