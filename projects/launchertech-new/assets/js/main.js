@@ -190,7 +190,9 @@ $( document ).ready(function() {
     autoplay: true,
     margin: 0,
     nav: false,
-    dots: true
+    dots: true,
+    animateOut: 'slideOutUp',
+  animateIn: 'slideInUp'
   });
   $(".owl-vertical-ultimate").owlCarousel({
     items: 1,
@@ -202,6 +204,8 @@ $( document ).ready(function() {
     autoplay: true,
     margin: 0,
     nav: false,
-    dots: true
+    dots: true,
+    animateOut: 'slideOutUp',
+  animateIn: 'slideInUp'
   });
 });
