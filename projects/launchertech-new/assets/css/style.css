@@ -1837,9 +1837,9 @@ max-height: 100%; margin-top: 0;
 .crm-bot .pro-vhead {
   padding-top: 20vh;
  margin-bottom: 50px;
- background: url(../../assets/img/crm-right.png);
+ background: url(../../assets/img/crm-banner.svg);
  background-position: right;
- background-size: 60%;
+ background-size: 50%;
  background-repeat: no-repeat;
  height: 100vh;
 }
@@ -1897,9 +1897,9 @@ max-height: 100%; margin-top: 0;
 .smart-bucket .pro-vhead {
  padding-top: 20vh;
  margin-bottom: 50px;
- background: url(../../assets/img/smart-bucket-right.png);
+ background: url(../../assets/img/smart-banner.svg);
  background-position: right;
- background-size: contain;
+ background-size: 40%;
  background-repeat: no-repeat;
  height: 100vh;
 }
