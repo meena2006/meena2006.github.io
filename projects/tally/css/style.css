@@ -110,8 +110,9 @@ p{line-height:1.8;font-size:15px}
 .icons-md{height:32px;width:32px}
 .icons-lg{height:40px;width:40px}
 .box-shadow{-webkit-box-shadow:0 8px 35px 0 rgba(73,80,87,.05);box-shadow:0 8px 35px 0 rgba(73,80,87,.05)}
-.avatar-md{height:3.5rem;width:3.5rem}
+.avatar-md{height:4.5rem;width:4.5rem}
 .avatar-title{-webkit-box-align:center;-ms-flex-align:center;align-items:center;background-color:#2f55d4;color:#fff;display:-webkit-box;display:-ms-flexbox;display:flex;font-weight:500;height:100%;-webkit-box-pack:center;-ms-flex-pack:center;justify-content:center;width:100%}
+.avatar-title img { width:35px; height:35px;}
 .navbar-custom{padding:20px 0;width:100%;z-index:999;margin-bottom:0;-webkit-transition:all .5s ease-in-out;transition:all .5s ease-in-out}
 .navbar-custom .navbar-nav .nav-item .nav-link{line-height:26px;color:rgba(52,58,64,.8);-webkit-transition:all .4s;transition:all .4s;background-color:transparent!important;padding:6px 10px;margin:0 7px}
 .navbar-custom .navbar-nav .nav-item .nav-link:active,.navbar-custom .navbar-nav .nav-item .nav-link:hover{color:#2f55d4}
@@ -149,6 +150,7 @@ p{line-height:1.8;font-size:15px}
 .testi-carousel .owl-dots .owl-dot:focus{outline:0}
 .testi-carousel .owl-dots .owl-dot span{background:rgba(47,85,212,.2);border:2px solid transparent}
 .testi-carousel .owl-dots .owl-dot.active span,.testi-carousel .owl-dots .owl-dot:hover span{background:#fff;border:2px solid #2f55d4}
+.testi-carousel .card p {  min-height:80px}
 .client-images img{max-height:94px;width:auto!important;margin:10px auto;opacity:.6;-webkit-transition:all .5s;transition:all .5s}
 .client-images img:hover{opacity:.9}
 .pricing-nav-tabs{display:inline-block;background-color:#fff;-webkit-box-shadow:0 8px 35px 0 rgba(73,80,87,.05);box-shadow:0 8px 35px 0 rgba(73,80,87,.05);padding:5px;border-radius:7px}
@@ -162,6 +164,8 @@ p{line-height:1.8;font-size:15px}
 .footer-list-title{font-size:16px;color:#fff}
 .footer-list-menu li a{display:inline-block;font-size:15px;color:rgba(255,255,255,.5);margin-bottom:14px;-webkit-transition:all .4s;transition:all .4s}
 .footer-list-menu li a:hover{color:rgba(255,255,255,.9)}
+.features-wrap p { padding-left:35px; position: relative;}
+.features-wrap p .icon-dual-success { position: absolute;left: 0; top: 3px;}
 @media (max-width:991px){
 .navbar-custom{margin-top:0;padding:10px 0!important;background-color:#f8fafe!important;-webkit-box-shadow:0 10px 33px -14px rgba(0,0,0,.1);box-shadow:0 10px 33px -14px rgba(0,0,0,.1)}
 .navbar-custom.navbar-expand-lg>.container{width:90%}
