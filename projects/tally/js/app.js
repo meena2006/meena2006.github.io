@@ -3,17 +3,17 @@
 
     var TallyS = function() {};
 
-    TallyS.prototype.initStickyMenu = function() {
-        $(window).scroll(function() {
-            var scroll = $(window).scrollTop();
+    // TallyS.prototype.initStickyMenu = function() {
+    //     $(window).scroll(function() {
+    //         var scroll = $(window).scrollTop();
         
-            if (scroll >= 50) {
-                $(".sticky").addClass("nav-sticky");
-            } else {
-                $(".sticky").removeClass("nav-sticky");
-            }
-        });
-    },
+    //         if (scroll >= 50) {
+    //             $(".sticky").addClass("nav-sticky");
+    //         } else {
+    //             $(".sticky").removeClass("nav-sticky");
+    //         }
+    //     });
+    // },
 
     TallyS.prototype.initSmoothLink = function() {
         $('.navbar-nav a').on('click', function(event) {
@@ -50,7 +50,7 @@
     feather.replace()
 
     TallyS.prototype.init = function() {
-        this.initStickyMenu();
+        // this.initStickyMenu();
         this.initSmoothLink();
         // this.initScrollspy();
         this.initTesticarousel(); 
