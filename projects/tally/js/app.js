@@ -25,11 +25,11 @@
         });
     },
 
-    TallyS.prototype.initScrollspy = function() {
-        $("#navbarCollapse").scrollspy({
-            offset:20
-        });
-    },
+    // TallyS.prototype.initScrollspy = function() {
+    //     $("#navbarCollapse").scrollspy({
+    //         offset:20
+    //     });
+    // },
 
     TallyS.prototype.initTesticarousel = function() {
         $('#testi-carousel').owlCarousel({
