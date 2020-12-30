@@ -52,7 +52,7 @@
     TallyS.prototype.init = function() {
         this.initStickyMenu();
         this.initSmoothLink();
-        this.initScrollspy();
+        // this.initScrollspy();
         this.initTesticarousel(); 
     },
     //init
