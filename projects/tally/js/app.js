@@ -47,7 +47,7 @@
     },
  
 
-    feather.replace()
+    // feather.replace()
 
     TallyS.prototype.init = function() {
         // this.initStickyMenu();
