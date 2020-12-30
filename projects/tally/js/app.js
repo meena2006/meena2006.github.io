@@ -18,9 +18,9 @@ $(document).ready(function() {
     });
     
     
-    $("#navbarCollapse").scrollspy({
-        offset: 20
-    });
+    // $("#navbarCollapse").scrollspy({
+    //     offset: 20
+    // });
     
     
     feather.replace()
