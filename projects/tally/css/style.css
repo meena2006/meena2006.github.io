@@ -188,6 +188,7 @@ p{line-height:1.8;font-size:15px}
     background: #fff;
     display: inline-flex;
 }
+.footer a { color:#fff;}
 @media (max-width:991px){
     .section { padding-top: 20px;
         padding-bottom: 20px;}

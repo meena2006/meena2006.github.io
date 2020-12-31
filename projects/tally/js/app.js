@@ -9,7 +9,7 @@ $(document).ready(function() {
         }
     });
     
-    $('.navbar-nav a').on('click', function (event) {
+    $('.navbar-nav a, .footer-pro a').on('click', function (event) {
         var $anchor = $(this);
         $('html, body').stop().animate({
             scrollTop: $($anchor.attr('href')).offset().top - 0
