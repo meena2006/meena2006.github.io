@@ -53,7 +53,7 @@
     <div class="col-12 col-md-12">
         <span class="help-block"></span>
         <input type="hidden" name="tenant_id" value="220816" id="tenant_id">
-        <button type="submit" class="btn btn-primary mt-2 step2_button">Continue</button>
+        <button type="submit" class="btn btn-primary mt-2 step2_button" id="select_facility">Continue</button>
         <a href="https://devpay.billpay.rent/" class="cancel_button">Cancel</a>
     </div>
 </div>
@@ -129,11 +129,12 @@
         }	
 	
 		
-		$('#select_facility_form').click(function() {
+		$('#select_facility').click(function() {
 			
-			$.blockUI({ message:'<div id="block_div"><img src="'+BASE+'/images/loading.gif" style="width:82px; height:82px;"/><span style="margin-left:20px;display: block;color: #fff;font-size: 28px;">Please wait ...<span></span></span></div>',overlayCSS: { opacity:0.7 },  css: { width: '275px' , background: 'none' , border: 'none'}  });	
+            $.blockUI({ message:'<div id="block_div"><img src="'+BASE+'/images/loading.gif" style="width:82px; height:82px;"/><span style="margin-left:20px;display: block;color: #fff;font-size: 28px;">Please wait ...<span></span></span></div>',overlayCSS: { opacity:0.7 },  css: { width: '275px' , background: 'none' , border: 'none'}  });	
+            setTimeout($.unblockUI, 6000); 
 			//document.select_facility_form.submit();			
-            setTimeout($.unblockUI, 20000);
+		
 		});
 		
 		$(".location_code").click(function(){			
