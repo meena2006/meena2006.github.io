@@ -36,7 +36,7 @@
 						<input type="hidden" name="_token" value="wgfdW2TH5TVYHtTckxxPoKS8uXIuXTpAjSAbvXjH">
 						
 <div class="">
-    <div class="col-12 col-md-12 my-3 text-left" id="facilityid">
+    <div class="col-12 col-md-12 my-3 text-left">
         <label for="facility" class="">Select a Facility</label>
     </div>
     <div class="col-12 col-md-12 form-group text-left">
@@ -129,11 +129,11 @@
         }	
 	
 		
-		$('#facilityid').click(function() {
+		$('#select_facility_form').click(function() {
 			
 			$.blockUI({ message:'<div id="block_div"><img src="'+BASE+'/images/loading.gif" style="width:82px; height:82px;"/><span style="margin-left:20px;display: block;color: #fff;font-size: 28px;">Please wait ...<span></span></span></div>',overlayCSS: { opacity:0.7 },  css: { width: '275px' , background: 'none' , border: 'none'}  });	
 			//document.select_facility_form.submit();			
-            setTimeout($.unblockUI, 100000); 
+            setTimeout($.unblockUI, 20000);
 		});
 		
 		$(".location_code").click(function(){			
