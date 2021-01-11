@@ -1,0 +1,286 @@
+@import url(../../fonts/stylesheet.css); 
+
+body{
+    font-size: 16px;
+    margin: 0;
+    font-family: 'Montserrat';
+    font-weight: normal;
+}
+
+.login_bg{
+    max-width:500px;
+    background-image: url(../../images/login_bg.png);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-right: 1px solid #444e1c;
+}
+.header{
+    position: absolute;
+    top: 0;
+    right: 15px;
+    left: 15px;
+}
+.header .nav-tabs{
+    border: none;
+}
+.header .nav-tabs a{
+    color: #646464;
+    font-weight: 600;
+    text-transform: uppercase;
+    text-decoration: none;
+}
+.header .nav-tabs .active{
+    border-bottom:3px solid #FCD403;
+}
+.form_section{
+    position: absolute;
+    top: 130px;
+    bottom: 60px;
+    right: 15px;
+    left: 15px;
+}
+.form_section form{
+    width: 400px;
+    position: absolute;
+    transform: translate(-50% , -50%);
+    top:50%;
+    left:50%;
+    font-weight: 600;
+}
+.form_section .form-group{
+    position: relative;
+    overflow: hidden;
+}
+.form_section input[type="text"],.form_section input[type="password"]{
+    border: 2px solid #D2D2D2;
+    border-radius: 16px;
+    height: 56px;
+    font-weight: 600;
+    outline: none;
+}
+.form_section.login_step2 input {
+	 height:auto;
+}
+.form_section.login_step2 .form-group{
+	overflow: inherit;
+}
+.form_section input:focus,.form_section input:active{
+    border: 2px solid rgb(252,212,4);;
+    box-shadow: none;
+}
+.login_step1 .form_section input['text'],.login_step1 .form_section input['password']{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    transform: translate(-50% , -50%);
+    pointer-events: none;
+    transition: 0.25s ease-in-out;
+    color: #D2D2D2;
+}
+
+.login_step1 .form_section label{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    right: 0;
+    transform: translate(-50% , -50%);
+    pointer-events: none;
+    transition: 0.25s ease-in-out;
+    color: #D2D2D2;
+}
+.form_section input:focus + label,.form_section input:valid + label{
+    top:-50%;
+    transition: 0.25s ease-in-out;
+}
+.form_section .login-button{
+    background: rgb(252,212,4);
+    background: linear-gradient(90deg, rgba(252,212,4,1) 0%, rgba(202,171,11,1) 25%, rgba(34,34,34,1) 100%);
+    height:56px;
+    border-radius: 16px;
+    border: none;
+    font-weight: 600;
+}
+.form_section.login_step2 input + label{
+    position: static;
+    color: #212529;
+    transform:none;
+	pointer-events: auto;
+	cursor: pointer;
+}
+.form_section button:focus{
+    border: 1px solid  rgba(34,34,34,1);
+    box-shadow: none;
+}
+.form_section .user_icon,.form_section .phone_icon{
+    background-image: url(../../images/avatar.svg);
+    background-position: 20px center;
+    background-repeat: no-repeat;
+    background-size: auto;
+}
+.form_section .phone_icon{
+    background-image: url(../../images/phone.svg);
+}
+.form_section .user_icon:focus{
+    background-image: url(../../images/avatar_active.svg);
+}
+.form_section .phone_icon:focus{
+    background-image: url(../../images/phone_active.svg);
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+.forgot_section a{
+    text-decoration: underline;
+    color: #4364F7;
+}
+.forgot_section a:hover,.forgot_section a:focus{
+    color: #233688;
+}
+.form_section a span{
+    text-decoration: underline;
+}
+.login_footer{
+    position: absolute;
+    bottom: 0;
+    right: 15px;
+    left: 15px;
+    font-weight: 600;
+    color: #000;
+    font-size: 10px;
+}
+
+.form_section .alert-added form{padding-top:140px;}
+
+.login_form select.form-control
+{
+    border: 2px solid #D2D2D2;
+    border-radius: 16px;
+    height: 56px !important;
+    font-weight: 600;
+}
+
+/* responsive styles starts */
+@media (max-width:1200px){
+    .logo img{
+        max-width: 200px;
+    }
+}
+@media (max-width:991px){
+    .form_section form{
+        width: 100%;
+    }
+}
+@media (max-width:767px){
+	.form_section .alert-added form{padding-top:80px;}
+    body{
+        font-size: 14px;
+    }
+    .header,.form_section,.login_footer{
+        position: static;
+    }
+    .login_bg{
+        height: 300px;
+    }
+    .login_form{
+        padding: 30px;
+        overflow-y: auto;
+    }
+    .logo img{
+        max-width: 150px;
+    }
+    .login_bg{
+        max-width: none;
+        background-position: center;
+    }
+    .login_form{
+        z-index: 1000;
+        position: relative;
+        top: -20%;
+        background: #fff;
+        border-radius: 50px 50px 0 0;
+        height: auto;
+    }
+    .form_section form{
+        position: static;
+        transform: none;
+    }
+    /*.form_section input,.form_section button{
+        height: 48px;
+    }*/
+    .forgot_section{
+        margin: 0;
+    }
+}
+
+@media (orientation: landscape) and (max-height:400px){
+    .login_bg{
+        display: none;
+    }
+    .login_form{
+        height: 100vh !important;
+        top:0;
+    }
+    .login_form .nav-tabs{
+        flex-direction: row !important;
+        padding: 0 !important;
+    }
+    .form_section{
+        margin:30px 0;
+    }
+}
+
+.has-error .checkbox, .has-error .checkbox-inline, .has-error .control-label, .has-error .help-block, .has-error .radio, .has-error .radio-inline, .has-error.checkbox label, .has-error.checkbox-inline label, .has-error.radio label, .has-error.radio-inline label {
+    color: #a94442;
+}
+
+#block_div{
+	min-height:70px; 
+	font-size:20px; 
+	text-transform:uppercase; 
+	font-family: Arial, sans-serif;
+	letter-spacing: 0; 
+	font-weight:normal; 
+	padding:15px;
+}
+
+.facility_radio{ display:inline-block;list-style-type:none;}
+
+
+.step2_button,.continue_button{	
+	background: rgb(252,212,4);
+    background: linear-gradient(90deg, rgba(252,212,4,1) 0%, rgba(202,171,11,1) 25%, rgba(34,34,34,1) 100%);
+    height:48px;
+    border-radius: 16px;
+    border: none;
+    font-weight: 600;
+	width:150px;
+	margin-right:30px;
+}
+
+.continue_button{
+	line-height:35px;
+}
+
+.cancel_button{margin-top:20px;}
+
+@media(max-width:480px)
+{
+.blockUI.blockMsg.blockPage
+{
+    left: 0 !important;
+    right: 0 !important;
+    display: block !important;
+    margin: 0 auto !important;
+}
+
+}
